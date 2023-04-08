@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小林の日記</title>
+  
+  <subtitle>進歩の神</subtitle>
+  <link href="http://toomson.com/atom.xml" rel="self"/>
+  
+  <link href="http://toomson.com/"/>
+  <updated>2022-05-18T14:15:48.766Z</updated>
+  <id>http://toomson.com/</id>
+  
+  <author>
+    <name>AsherJw</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>主板</title>
+    <link href="http://toomson.com/posts/cc5b.html"/>
+    <id>http://toomson.com/posts/cc5b.html</id>
+    <published>2022-05-18T14:15:11.000Z</published>
+    <updated>2022-05-18T14:15:48.766Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;主板&quot;&gt;&lt;a href=&quot;#主板&quot; class=&quot;headerlink&quot; title=&quot;主板&quot;&gt;&lt;/a&gt;主板&lt;/h1&gt;&lt;h2 id=&quot;看芯片组：&quot;&gt;&lt;a href=&quot;#看芯片组：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/categories/Technology/"/>
+    
+    
+    <category term="电脑配件" scheme="http://toomson.com/tags/%E7%94%B5%E8%84%91%E9%85%8D%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>内存</title>
+    <link href="http://toomson.com/posts/2ada.html"/>
+    <id>http://toomson.com/posts/2ada.html</id>
+    <published>2022-05-18T14:14:02.000Z</published>
+    <updated>2022-05-18T14:14:52.311Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;内存&quot;&gt;&lt;a href=&quot;#内存&quot; class=&quot;headerlink&quot; title=&quot;内存&quot;&gt;&lt;/a&gt;内存&lt;/h1&gt;&lt;h2 id=&quot;内存颗粒：&quot;&gt;&lt;a href=&quot;#内存颗粒：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/categories/Technology/"/>
+    
+    
+    <category term="电脑配件" scheme="http://toomson.com/tags/%E7%94%B5%E8%84%91%E9%85%8D%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NAS</title>
+    <link href="http://toomson.com/posts/7a10.html"/>
+    <id>http://toomson.com/posts/7a10.html</id>
+    <published>2022-05-18T09:07:37.000Z</published>
+    <updated>2022-05-18T13:54:12.288Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;NAS&quot;&gt;&lt;a href=&quot;#NAS&quot; class=&quot;headerlink&quot; title=&quot;NAS&quot;&gt;&lt;/a&gt;NAS&lt;/h1&gt;&lt;h2 id=&quot;NAS和服务器的区别&quot;&gt;&lt;a href=&quot;#NAS和服务器的区别&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/categories/Technology/"/>
+    
+    
+    <category term="NAS" scheme="http://toomson.com/tags/NAS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ComputationalProblems</title>
+    <link href="http://toomson.com/posts/d564.html"/>
+    <id>http://toomson.com/posts/d564.html</id>
+    <published>2022-05-17T02:27:58.000Z</published>
+    <updated>2022-05-17T02:28:52.351Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ComputationalProblems&quot;&gt;&lt;a href=&quot;#ComputationalProblems&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="小项目" scheme="http://toomson.com/categories/%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="Java" scheme="http://toomson.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算在世界上的天数</title>
+    <link href="http://toomson.com/posts/f1e.html"/>
+    <id>http://toomson.com/posts/f1e.html</id>
+    <published>2022-05-16T15:26:54.000Z</published>
+    <updated>2022-05-16T15:28:18.952Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;计算在世界上的天数&quot;&gt;&lt;a href=&quot;#计算在世界上的天数&quot; class=&quot;headerlink&quot; title=&quot;计算在世界上的天数&quot;&gt;&lt;/a&gt;计算在世界上的天数&lt;/h1&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="小项目" scheme="http://toomson.com/categories/%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="C" scheme="http://toomson.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LoveType</title>
+    <link href="http://toomson.com/posts/3ff8.html"/>
+    <id>http://toomson.com/posts/3ff8.html</id>
+    <published>2022-05-13T16:28:17.000Z</published>
+    <updated>2022-05-13T16:32:25.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;LoveType&quot;&gt;&lt;a href=&quot;#LoveType&quot; class=&quot;headerlink&quot; title=&quot;LoveType&quot;&gt;&lt;/a&gt;LoveType&lt;/h1&gt;&lt;p&gt;用各形式打印出爱心&lt;/p&gt;
+&lt;h2 id=&quot;love-h&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="小项目" scheme="http://toomson.com/categories/%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="C++" scheme="http://toomson.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言图形库Easyx</title>
+    <link href="http://toomson.com/posts/b513.html"/>
+    <id>http://toomson.com/posts/b513.html</id>
+    <published>2022-05-13T16:25:17.000Z</published>
+    <updated>2022-05-13T16:45:18.323Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;C语言图形库Easyx&quot;&gt;&lt;a href=&quot;#C语言图形库Easyx&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="小项目" scheme="http://toomson.com/categories/%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="Easyx" scheme="http://toomson.com/tags/Easyx/"/>
+    
+    <category term="C++" scheme="http://toomson.com/tags/C/"/>
+    
+    <category term="TechnologyC" scheme="http://toomson.com/tags/TechnologyC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>听力</title>
+    <link href="http://toomson.com/posts/44c0.html"/>
+    <id>http://toomson.com/posts/44c0.html</id>
+    <published>2022-05-12T13:54:41.000Z</published>
+    <updated>2022-05-12T13:55:14.157Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;听力&quot;&gt;&lt;a href=&quot;#听力&quot; class=&quot;headerlink&quot; title=&quot;听力&quot;&gt;&lt;/a&gt;听力&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;做题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;听前：预读题目勾选关键词–预测读音 预测意思</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="听力" scheme="http://toomson.com/tags/%E5%90%AC%E5%8A%9B/"/>
+    
+    <category term="四级" scheme="http://toomson.com/tags/%E5%9B%9B%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>翻译</title>
+    <link href="http://toomson.com/posts/801a.html"/>
+    <id>http://toomson.com/posts/801a.html</id>
+    <published>2022-05-12T13:52:01.000Z</published>
+    <updated>2022-05-12T13:55:14.160Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;翻译&quot;&gt;&lt;a href=&quot;#翻译&quot; class=&quot;headerlink&quot; title=&quot;翻译&quot;&gt;&lt;/a&gt;翻译&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;找主干（谁 是 什么，谁 做 什么， 什么 被</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="四级" scheme="http://toomson.com/tags/%E5%9B%9B%E7%BA%A7/"/>
+    
+    <category term="翻译" scheme="http://toomson.com/tags/%E7%BF%BB%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>选词填空</title>
+    <link href="http://toomson.com/posts/cf9d.html"/>
+    <id>http://toomson.com/posts/cf9d.html</id>
+    <published>2022-05-12T13:51:01.000Z</published>
+    <updated>2022-05-12T13:55:14.162Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;选词填空&quot;&gt;&lt;a href=&quot;#选词填空&quot; class=&quot;headerlink&quot; title=&quot;选词填空&quot;&gt;&lt;/a&gt;选词填空&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;标词性    adj n v adv&lt;/li&gt;
+&lt;li&gt;看空       </summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="四级" scheme="http://toomson.com/tags/%E5%9B%9B%E7%BA%A7/"/>
+    
+    <category term="选词填空" scheme="http://toomson.com/tags/%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>长篇阅读</title>
+    <link href="http://toomson.com/posts/51b4.html"/>
+    <id>http://toomson.com/posts/51b4.html</id>
+    <published>2022-05-12T13:50:20.000Z</published>
+    <updated>2022-05-12T13:55:14.163Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;长篇阅读&quot;&gt;&lt;a href=&quot;#长篇阅读&quot; class=&quot;headerlink&quot; title=&quot;长篇阅读&quot;&gt;&lt;/a&gt;长篇阅读&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;划重点      8mins&lt;/li&gt;
+&lt;li&gt;读意思     </summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="四级" scheme="http://toomson.com/tags/%E5%9B%9B%E7%BA%A7/"/>
+    
+    <category term="阅读" scheme="http://toomson.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>短篇阅读</title>
+    <link href="http://toomson.com/posts/1dc.html"/>
+    <id>http://toomson.com/posts/1dc.html</id>
+    <published>2022-05-12T13:48:15.000Z</published>
+    <updated>2022-05-12T13:55:14.159Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;短篇阅读&quot;&gt;&lt;a href=&quot;#短篇阅读&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="四级" scheme="http://toomson.com/tags/%E5%9B%9B%E7%BA%A7/"/>
+    
+    <category term="阅读" scheme="http://toomson.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据保存问题</title>
+    <link href="http://toomson.com/posts/71ec.html"/>
+    <id>http://toomson.com/posts/71ec.html</id>
+    <published>2022-05-11T04:05:55.000Z</published>
+    <updated>2022-05-11T04:07:35.635Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据保存问题&quot;&gt;&lt;a href=&quot;#数据保存问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++高并发解决方案</title>
+    <link href="http://toomson.com/posts/5672.html"/>
+    <id>http://toomson.com/posts/5672.html</id>
+    <published>2022-05-11T04:03:35.000Z</published>
+    <updated>2022-05-11T04:07:35.633Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;C-高并发解决方案&quot;&gt;&lt;a href=&quot;#C-高并发解决方案&quot; class=&quot;headerlink&quot; title=&quot;C++高并发解决方案&quot;&gt;&lt;/a&gt;C++高并发解决方案&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;TCP+多线程</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>主存储器概述</title>
+    <link href="http://toomson.com/posts/319b.html"/>
+    <id>http://toomson.com/posts/319b.html</id>
+    <published>2022-05-09T14:10:25.000Z</published>
+    <updated>2022-05-09T14:13:05.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;主存储器&quot;&gt;&lt;a href=&quot;#主存储器&quot; class=&quot;headerlink&quot; title=&quot;主存储器&quot;&gt;&lt;/a&gt;主存储器&lt;/h1&gt;&lt;h2 id=&quot;一、主存储器概述&quot;&gt;&lt;a href=&quot;#一、主存储器概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="408" scheme="http://toomson.com/categories/408/"/>
+    
+    
+    <category term="计组" scheme="http://toomson.com/tags/%E8%AE%A1%E7%BB%84/"/>
+    
+    <category term="存储器" scheme="http://toomson.com/tags/%E5%AD%98%E5%82%A8%E5%99%A8/"/>
+    
+    <category term="主存储器" scheme="http://toomson.com/tags/%E4%B8%BB%E5%AD%98%E5%82%A8%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IELTS</title>
+    <link href="http://toomson.com/posts/e877.html"/>
+    <id>http://toomson.com/posts/e877.html</id>
+    <published>2022-05-07T16:55:48.000Z</published>
+    <updated>2022-05-07T17:04:12.635Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;IELTS&quot;&gt;&lt;a href=&quot;#IELTS&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="IELTS" scheme="http://toomson.com/tags/IELTS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>存储器概述</title>
+    <link href="http://toomson.com/posts/502d.html"/>
+    <id>http://toomson.com/posts/502d.html</id>
+    <published>2022-05-06T07:46:53.000Z</published>
+    <updated>2022-05-09T14:15:05.240Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;存储器概述&quot;&gt;&lt;a href=&quot;#存储器概述&quot; class=&quot;headerlink&quot; title=&quot;存储器概述&quot;&gt;&lt;/a&gt;存储器概述&lt;/h1&gt;&lt;h2 id=&quot;一、存储器分类&quot;&gt;&lt;a href=&quot;#一、存储器分类&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="408" scheme="http://toomson.com/categories/408/"/>
+    
+    
+    <category term="计组" scheme="http://toomson.com/tags/%E8%AE%A1%E7%BB%84/"/>
+    
+    <category term="存储器" scheme="http://toomson.com/tags/%E5%AD%98%E5%82%A8%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git</title>
+    <link href="http://toomson.com/posts/629e.html"/>
+    <id>http://toomson.com/posts/629e.html</id>
+    <published>2022-05-04T16:16:42.000Z</published>
+    <updated>2022-05-06T07:39:04.779Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Git基本操作&quot;&gt;&lt;a href=&quot;#Git基本操作&quot; class=&quot;headerlink&quot; title=&quot;Git基本操作&quot;&gt;&lt;/a&gt;Git基本操作&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;git clone 地址http链接 </summary>
+        
+      
+    
+    
+    
+    
+    <category term="Technology" scheme="http://toomson.com/tags/Technology/"/>
+    
+    <category term="Git" scheme="http://toomson.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写作能力的重要性</title>
+    <link href="http://toomson.com/posts/5f96.html"/>
+    <id>http://toomson.com/posts/5f96.html</id>
+    <published>2022-05-04T14:36:54.000Z</published>
+    <updated>2022-05-12T13:56:56.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;写作能力的重要性&quot;&gt;&lt;a href=&quot;#写作能力的重要性&quot; class=&quot;headerlink&quot; title=&quot;写作能力的重要性&quot;&gt;&lt;/a&gt;写作能力的重要性&lt;/h1&gt;&lt;h2 id=&quot;Directions：&quot;&gt;&lt;a href=&quot;#Directions：&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://toomson.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="作文" scheme="http://toomson.com/tags/%E4%BD%9C%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>总线控制</title>
+    <link href="http://toomson.com/posts/ded4.html"/>
+    <id>http://toomson.com/posts/ded4.html</id>
+    <published>2022-05-04T14:12:31.000Z</published>
+    <updated>2022-05-06T07:39:04.826Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;总线控制&quot;&gt;&lt;a href=&quot;#总线控制&quot; class=&quot;headerlink&quot; title=&quot;总线控制&quot;&gt;&lt;/a&gt;总线控制&lt;/h1&gt;&lt;h2 id=&quot;一、总线判优控制&quot;&gt;&lt;a href=&quot;#一、总线判优控制&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="408" scheme="http://toomson.com/categories/408/"/>
+    
+    
+    <category term="计组" scheme="http://toomson.com/tags/%E8%AE%A1%E7%BB%84/"/>
+    
+    <category term="系统总线" scheme="http://toomson.com/tags/%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF/"/>
+    
+  </entry>
+  
+</feed>

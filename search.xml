@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>主板</title>
+      <link href="/posts/cc5b.html"/>
+      <url>/posts/cc5b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="主板"><a href="#主板" class="headerlink" title="主板"></a>主板</h1><h2 id="看芯片组："><a href="#看芯片组：" class="headerlink" title="看芯片组："></a>看芯片组：</h2><p>看inter or AMD</p><h2 id="版型（大小）（没啥用，看机箱大小）："><a href="#版型（大小）（没啥用，看机箱大小）：" class="headerlink" title="版型（大小）（没啥用，看机箱大小）："></a>版型（大小）（没啥用，看机箱大小）：</h2><ul><li><p>ATX（大）</p></li><li><p>M-ATX（中）</p></li><li><p>ITX（小）</p></li></ul><h2 id="供电："><a href="#供电：" class="headerlink" title="供电："></a>供电：</h2><p>主板的CPU供电，看cpu周围的供电相数</p><h2 id="扩展性："><a href="#扩展性：" class="headerlink" title="扩展性："></a>扩展性：</h2><ul><li>内存条插槽数量</li><li>PCI-e插槽数量/速度</li><li>M.2接口数量（PCI-e插槽可以用转接口转换成M.2接口）：（M.2的固态硬盘）</li><li>SATA接口数量</li><li>板载接口数量：有两个圆圆的天线是有wifi和蓝牙）</li><li>风扇供电接口数量</li><li>RGB接口数量</li></ul><h2 id="BIOS："><a href="#BIOS：" class="headerlink" title="BIOS："></a>BIOS：</h2><p>调节CPU，显卡，硬盘，内存用的软件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑配件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>内存</title>
+      <link href="/posts/2ada.html"/>
+      <url>/posts/2ada.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h1><h2 id="内存颗粒："><a href="#内存颗粒：" class="headerlink" title="内存颗粒："></a>内存颗粒：</h2><p>决定内存质量，但是没得选，不用看</p><h2 id="内存频率："><a href="#内存频率：" class="headerlink" title="内存频率："></a>内存频率：</h2><p>指令执行频率，不需要频繁转换频率无所谓（游戏需要，工作不需要）</p><h2 id="内存超频："><a href="#内存超频：" class="headerlink" title="内存超频："></a>内存超频：</h2><p>尽量不要超，没必要</p><h2 id="内存时序："><a href="#内存时序：" class="headerlink" title="内存时序："></a>内存时序：</h2><p>指令与指令之间的时钟周期</p><h2 id="内存通道："><a href="#内存通道：" class="headerlink" title="内存通道："></a>内存通道：</h2><p>内存控制器和内存之间数据交换的通道</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑配件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>NAS</title>
+      <link href="/posts/7a10.html"/>
+      <url>/posts/7a10.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="NAS"><a href="#NAS" class="headerlink" title="NAS"></a>NAS</h1><h2 id="NAS和服务器的区别"><a href="#NAS和服务器的区别" class="headerlink" title="NAS和服务器的区别"></a>NAS和服务器的区别</h2><p>服务器和普通的计算机都一样,如果要说不同那就是服务器性能更好,硬件设施更高，而且是不关机的。所以只要能运行系统的机器就能做服务器!</p><p>NAS 只是非常简单的在一个局域添加一个NAS的存储,就可以实现存储，NAS是通过IP网络访问的文件系统，可以理解为服务器+硬盘+文件系统软件的组合。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NAS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ComputationalProblems</title>
+      <link href="/posts/d564.html"/>
+      <url>/posts/d564.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="ComputationalProblems"><a href="#ComputationalProblems" class="headerlink" title="ComputationalProblems"></a>ComputationalProblems</h1><h2 id="随机正整数加减法算式"><a href="#随机正整数加减法算式" class="headerlink" title="随机正整数加减法算式"></a>随机正整数加减法算式</h2><pre class="line-numbers language-none"><code class="language-none">import java.util.*;public class ComputationalProblems{    public static void main(String[] args)  {        Scanner sc=new Scanner(System.in);        boolean flag=true;        int m = 0;        int n = 0;        int ansers=0;        int upper=100;        int lower=0;        while(flag){            System.out.println("正整数算式取值范围：输入0 0则退出程序");            System.out.println("示例：87到174之间随机正整数加减法算式：87 174");            System.out.println("退出示例：0 0");            lower=sc.nextInt();            upper=sc.nextInt();            if(lower==0&amp;&amp;upper==0){                flag=false;                continue;            }            if (lower&gt;=upper){                System.out.println("请输入合理的数值");                continue;            }            System.out.println("算式是否需要结果（0不需要1需要）：");            ansers=sc.nextInt();            if (ansers !=0 &amp;&amp; ansers!=1){                System.out.println("请输入合理的数值");                continue;            }            System.out.println("需要m道n（n&gt;=2）个100以内数值的随机整数加减法算式！");            System.out.println("示例：3 2");            m=sc.nextInt();            n=sc.nextInt();            if (n&lt;2||m&lt;1){                System.out.println("请输入合理的数值");                continue;            }else{                addDel opertion = new addDel();                opertion.printNum(m,n,ansers,lower,upper);                System.out.println();            }        }    }}class addDel {    private ArrayList&lt;String&gt; arrayOption = new ArrayList&lt;&gt;(); // 用来获取加法和减法    private Random random = new Random(); // 用来产生随机数    public addDel() {  // 空参构造方法        arrayOption.add("+");        arrayOption.add("-");    }    //算式输出    public void printNum(int m,int n,int ansers,int lower,int upper) {        //随机数组        int total=m*n;        int []addNumberArry = new int[total];        for (int i = 0; i &lt; total; i++) {            addNumberArry[i] = (random.nextInt(upper-lower) + (lower+ 1));        }        //计算        int value=0;        for (int i = 0; i &lt; total; i += n) {            System.out.print(""+addNumberArry[i]);            value=addNumberArry[i];            int c=i;            for (int j = 0; j &lt; n-1; j++) {                char[] charOpration = arrayOption.get(random.nextInt(2)).toCharArray();                System.out.print( "" + charOpration[0] + addNumberArry[++c] );                if (charOpration[0]=='+')                    value  += addNumberArry[c];                if (charOpration[0]=='-')                    value -= addNumberArry[c];            }            if(ansers==1) {                System.out.print("=" + value + "\t");            }else{                System.out.printf("\t");            }        }    }}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算在世界上的天数</title>
+      <link href="/posts/f1e.html"/>
+      <url>/posts/f1e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算在世界上的天数"><a href="#计算在世界上的天数" class="headerlink" title="计算在世界上的天数"></a>计算在世界上的天数</h1><pre class="line-numbers language-none"><code class="language-none">#include &lt;stdio.h&gt;int main(){        int year1,year2,month1,month2,day1,day2;        int a[13]= {0,31,28,31,30,31,30,31,31,30,31,30,31};        printf("birthday:2001 02 06:");        scanf("%d %d %d",&amp;year1,&amp;month1,&amp;day1);        printf("now:2022 05 16:");        scanf("%d %d %d",&amp;year2,&amp;month2,&amp;day2);        int num=0,i,j,k;        if((year2-year1)&gt;1)        {                for(i=year1+1;i&lt;=year2-1;i++)                {                        if(i%4==0&amp;&amp;i%100!=0||i%400==0)                        {                                num=num+366;                        }                        else num=num+365;                }        }        if(year1%4==0&amp;&amp;year1%100!=0||year1%400==0) a[2]=29;        if(year1==year2)        {                for(i=month1+1;i&lt;month2;i++)                {                        num=num+a[i];                }                num=num+(a[month1]-day1)+day2;        }        a[2]=28;        if(year1!=year2)        {                if(year1%4==0&amp;&amp;year1%100!=0||year1%400==0) a[2]=29;                for(i=month1+1;i&lt;=12;i++)                {                        num+=a[i];                }num+=(a[month1]-day1);                a[2]=28;                if(year2%4==0&amp;&amp;year1%100!=0||year2%400==0) a[2]=29;                for(i=month2-1;i&gt;=1;i--)                {                num+=a[i];                }                num+=day2;        }        printf("You have lived %d days.\n",num);        return 0;}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LoveType</title>
+      <link href="/posts/3ff8.html"/>
+      <url>/posts/3ff8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="LoveType"><a href="#LoveType" class="headerlink" title="LoveType"></a>LoveType</h1><p>用各形式打印出爱心</p><h2 id="love-h"><a href="#love-h" class="headerlink" title="love.h"></a>love.h</h2><pre class="line-numbers language-none"><code class="language-none">#pragma once#include &lt;math.h&gt;#include &lt;stdio.h&gt;extern void setColor(unsigned short ForeColor, unsigned short BackgroundColor);void printLove(int &amp;loveType){int s = 0;for (float x = 1.3; x &gt;= -1.1; x -= 0.1){for (float y = -2; y &lt;= 1.4; y += 0.053){if (pow(x*x + y * y - 1,3) - x * x*x*y*y &lt;= 0){switch (loveType) {case 1://loves++;if (s % 4 == 1)printf("L");if (s % 4 == 2)printf("O");if (s % 4 == 3)printf("V");if (s % 4 == 0)printf("E");Sleep(2);break;case 2://字母printf("%c",rand()%10+rand()%10+97);Sleep(2);break;case 3://数字printf("%d",rand()%10);Sleep(2);break;case 4://颜色setColor(0, rand() % 6 + 10);printf(" ");Sleep(2);break;default:break;}}else {if (loveType == 4) setColor(0,0);printf(" ");}}printf("\n");}}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="main-cpp"><a href="#main-cpp" class="headerlink" title="main.cpp"></a>main.cpp</h2><pre class="line-numbers language-none"><code class="language-none">#include &lt;stdio.h&gt;#include &lt;Windows.h&gt;#include "love.h"#include &lt;conio.h&gt;//进度条效果void load();//设置console背景色,前景色void setColor(unsigned short forewardColor,unsigned short backgroundColor);//打印两行****void outputRepeat(const char* text);//菜单void outputText();int main(){load();int choose;//用户的选择const char* text = "*";//花边do{system("color 0e");//用system设置颜色，黑色背景米黄色前景色//打印两行*****outputRepeat(text);//菜单栏outputText();//打印两行*****outputRepeat(text);printf("\n\t\t\t");//用户选择的爱心类型scanf_s("%d",&amp;choose);system("cls");//刷新屏幕//退出if (choose == 5) {return 0;}//打印爱心setColor(4,0);//红色背景，黑色字printLove(choose);_getch();//获取用户键盘操作system("cls");} while (1);return 0;}//实现进度条void load(){setColor(0, 14);//米黄色背景，黑色前景色（字）for (int i = 0; i &lt;= 50 ; i++){printf(" ");printf("%d%%",i*2);Sleep(101-i);printf("\b\b\b");//\b回退一格}setColor(15,0);//黑色背景，白色前景色（字）printf("\n加载完成!");Sleep(700);//休息1秒system("cls");//清一下屏幕}void setColor(unsigned short forewardColor, unsigned short backgroundColor){//获取输出设备的句柄HANDLEHANDLE hCon = GetStdHandle(STD_OUTPUT_HANDLE);//一个字节保存不同的数据，一个字节（8位）来设置前景色和背景色，前四位（低四位）是前景色，高四位高四位背景色SetConsoleTextAttribute(hCon, forewardColor | backgroundColor &lt;&lt; 4);//左移四位}void outputRepeat(const char* text){for (int j = 0; j &lt; 2; j++){for (int i = 0; i &lt; 56; i++){if (i &gt;= 20){printf(text);Sleep(10);}else{printf(" ");}}printf("\n");}}void outputText(){printf("\n\t\t\t你想要什么样的心：\n");printf("\n\t\t\t1.由love组成的心！\n");printf("\n\t\t\t2.由字符组成的心！\n");printf("\n\t\t\t3.由数字组成的心！\n");printf("\n\t\t\t4.由颜色组成的心！\n");printf("\n\t\t\t5.退出！\n\n");}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C语言图形库Easyx</title>
+      <link href="/posts/b513.html"/>
+      <url>/posts/b513.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C语言图形库Easyx"><a href="#C语言图形库Easyx" class="headerlink" title="C语言图形库Easyx"></a>C语言图形库Easyx</h1><p>安装easyx</p><p>网易云音乐狗都不用，从现在开始退坑了，害我找了半个小时错误</p><pre class="line-numbers language-none"><code class="language-none">#include &lt;graphics.h&gt;#include &lt;MMSystem.h&gt; //播放音乐的头文件,不能放在最上面#include &lt;stdlib.h&gt;#pragma comment(lib,"winmm.lib")//pragma编程 用来加载winmm.lib库文件int main(void){//创建一个图形界面initgraph(600, 400);//0表示把图片加载到默认窗口，默认输出设备是控制台loadimage(0,"bg.jpg");//项目字符集改成使用多字节字符集//播放音乐//mciSendString("open bg.mp3 alias song", NULL, 0, NULL); mciSendString("play bg1.mp3 repeat",0,0,0);//如返回277可能是MP3的解码器出了问题，下载解码器解码MP3，finalcodecs          //网易云下载的音乐虽然是MP3格式的但是在这个函数是播放不了的，因为下载的音乐其实是flac格式，所以播放不了，要在qq音乐下载才可以播放。system("pause");//把窗口暂停查看运行closegraph();//把当前窗口关闭return 0;}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Easyx </tag>
+            
+            <tag> C++ </tag>
+            
+            <tag> TechnologyC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>听力</title>
+      <link href="/posts/44c0.html"/>
+      <url>/posts/44c0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h1><ul><li>做题</li></ul><ol><li>听前：预读题目勾选关键词–预测读音 预测意思 不听问题</li><li>听中：勾画听到的东西–对应程度高的为正确选项的几率大</li></ol><ul><li><p>练习</p><p>听一句写一句，写出来为止</p></li></ul><h2 id="新闻报道"><a href="#新闻报道" class="headerlink" title="新闻报道"></a>新闻报道</h2><h2 id="长对话"><a href="#长对话" class="headerlink" title="长对话"></a>长对话</h2><h2 id="篇章"><a href="#篇章" class="headerlink" title="篇章"></a>篇章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 听力 </tag>
+            
+            <tag> 四级 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>翻译</title>
+      <link href="/posts/801a.html"/>
+      <url>/posts/801a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h1><ol><li>找主干（谁 是 什么，谁 做 什么， 什么 被 做）</li><li>添加修饰成分</li><li>检查回读</li></ol><p>有：hava/has</p><p>​        There be(is/are/was/were)</p><p>曾有现在没了：there has been/there have been</p><p>将会有：there will be</p><p>伴随的一种状态：with</p><p>了：完成时标志，用have/has done</p><p>的：of—A of B   B的A</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 四级 </tag>
+            
+            <tag> 翻译 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>选词填空</title>
+      <link href="/posts/cf9d.html"/>
+      <url>/posts/cf9d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="选词填空"><a href="#选词填空" class="headerlink" title="选词填空"></a>选词填空</h1><ol><li>标词性    adj n v adv</li><li>看空        名词单复数，动词时态</li></ol><p>the/a/adj/one’s/more/+(形容词)+名词</p><p>of 前后是名词</p><p>To/情态动词(would could can should…)+动词原形</p><p>Has/have/had/+过去完成时</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 四级 </tag>
+            
+            <tag> 选词填空 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>长篇阅读</title>
+      <link href="/posts/51b4.html"/>
+      <url>/posts/51b4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="长篇阅读"><a href="#长篇阅读" class="headerlink" title="长篇阅读"></a>长篇阅读</h1><ul><li>划重点      8mins</li><li>读意思      划时读意思，划完5题回头再读一遍，划完10题再读一遍</li><li>回文选      注意同义替换</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 四级 </tag>
+            
+            <tag> 阅读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>短篇阅读</title>
+      <link href="/posts/1dc.html"/>
+      <url>/posts/1dc.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="短篇阅读"><a href="#短篇阅读" class="headerlink" title="短篇阅读"></a>短篇阅读</h1><ol><li>看题目</li><li>推测文章大意</li><li>定位出题句</li><li>对比选择</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 四级 </tag>
+            
+            <tag> 阅读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据保存问题</title>
+      <link href="/posts/71ec.html"/>
+      <url>/posts/71ec.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="数据保存问题"><a href="#数据保存问题" class="headerlink" title="数据保存问题"></a>数据保存问题</h1><ul><li><p>数据库：是读写文件有IO操作，效率比较低，但是存放再磁盘上，数据会一直保存</p><ul><li><p>个人信息：账号、密码、好友（QQ：备注、昵称、账号）</p><p>以用户为单位，一个用户建立一张表</p></li></ul><table><thead><tr><th>表名（账号）小张</th><th></th></tr></thead><tbody><tr><td>password</td><td>1111</td></tr><tr><td>friend</td><td>小李|小王（mysql不能存放数组，用字符串，|隔开，获取后解析）</td></tr></tbody></table><ul><li><p>群信息：群主、群成员</p><p>以群为单位，一个用户建立一张表</p></li></ul><table><thead><tr><th>表名（群名）</th><th></th></tr></thead><tbody><tr><td>owner</td><td>小张</td></tr><tr><td>member</td><td>小李|小王</td></tr></tbody></table></li><li><p>链表：读写内存，效率比较高，但是是临时的数据，程序结束数据就没有了</p><ul><li><p>保存在线用户信息</p><p><img src="http://toomson.com:81/images/image-20220510193631974.png" alt="image-20220510193631974"></p></li><li><p>保存群信息</p><p><img src="http://toomson.com:81/images/image-20220510193623158.png" alt="image-20220510193623158"></p></li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C++高并发解决方案</title>
+      <link href="/posts/5672.html"/>
+      <url>/posts/5672.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C-高并发解决方案"><a href="#C-高并发解决方案" class="headerlink" title="C++高并发解决方案"></a>C++高并发解决方案</h1><ol><li><p>TCP+多线程 对服务器性能要求比较高</p></li><li><p>select（是一个文件描述符（fd）的集合，一个文件描述符对应一个客户端）对服务器性能要求比较低，是单线程在循环，并发量有限，处理效率低（循环遍历整合集合）</p></li><li><p>epoll 理论上并发量无限，处理效率较高，不用遍历整个事件，有事件发生时直接跳过去（epoll_event结构体）集合</p></li><li><p>epoll+多线程 频繁启动线程浪费时间</p></li><li><p>epoll+线程池</p></li><li><p>libevent（bufferevent的集合，每个bufferevent对应一个客户端）</p></li><li><p>libevent+多线程（和epoll+多线程不同，它不允许由多个线程来操作这个集合）</p><ul><li><p>libevent+多线程服务器</p><p><img src="http://toomson.com:81/images/image-20220510180514782.png"></p></li></ul></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>主存储器概述</title>
+      <link href="/posts/319b.html"/>
+      <url>/posts/319b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="主存储器"><a href="#主存储器" class="headerlink" title="主存储器"></a>主存储器</h1><h2 id="一、主存储器概述"><a href="#一、主存储器概述" class="headerlink" title="一、主存储器概述"></a>一、主存储器概述</h2><h3 id="1-主存的基本组成"><a href="#1-主存的基本组成" class="headerlink" title="1. 主存的基本组成"></a>1. 主存的基本组成</h3><p>存储体保存程序、指令、数据。</p><p>数据是读出还是写入由读写控制电路控制</p><p>  <img src="http://toomson.com:81/images/image-20220505082621180.png"></p><h3 id="2-主存与CPU之间的联系"><a href="#2-主存与CPU之间的联系" class="headerlink" title="2. 主存与CPU之间的联系"></a>2. 主存与CPU之间的联系</h3><ul><li><p>数据总线：完成CPU和主存之间的数据传输，数据总线直接连在MDR寄存器上，是双向的</p></li><li><p>地址总线：把需要的存储单元的地址从CPU送到主存，连接在MAR寄存器和主存的地址总线之间，给出了要访问单元的地址，是单向的</p></li><li><p>控制总线：由CPU给主存读出或者写入，是单向的</p><p><img src="http://toomson.com:81/images/image-20220505082634722.png"></p></li></ul><h3 id="3-主存中存储单元地址的分配"><a href="#3-主存中存储单元地址的分配" class="headerlink" title="3. 主存中存储单元地址的分配"></a>3. 主存中存储单元地址的分配</h3><p>假设：主存中存储字长是32位（每32位有一个地址）。一次最多可以读出32位个01，主存的编址单位是字节，每一个字节（8位）又都有一个地址</p><p>12345678H (八个十六进制数，一个十六进制数占四位)，正好保存在一个存储单元当中</p><ul><li>这个数据在主存储器存储单元中有两种方式进行存储，两种不同存储方式（一个大尾一个小尾方式）进行通讯时会出现问题，接受方需要对字节的顺序进行调整</li></ul><ol><li>高位字节 地址为字地址四个字节对应四个地址</li></ol><p><img src="http://toomson.com:81/images/image-20220505082818495.png"></p><p>0，4，8就是存储字（储存单元，存储字长）的地址，一个存储字包含四个字节（0，1，2，3）（四个地址）</p><p>高位字节（12）存放在低地址（从0开始存），并且把高位字节所在的地址作为他的存储字的地址</p><ol start="2"><li>低位字节 地址为字地址（X86采用的就是小端方式，小尾方式）</li></ol><p><img src="http://toomson.com:81/images/image-20220505082836945.png"></p><p>0，4，8就是存储字（储存单元，存储字长）的地址，一个存储字包含四个字节（0，1，2，3）（四个地址）</p><p>低位字节（78）存放在低地址（从0开始存），并且把低位字节所在的地址作为他的存储字的地址</p><table><thead><tr><th>设地址线 24 根</th><th>按 字节 寻址</th><th>2<sup>24</sup> = 16 MB</th></tr></thead><tbody><tr><td>若字长为 16 位</td><td>按 字 寻址</td><td>8 MW</td></tr><tr><td>若字长为 32 位</td><td>按 字 寻址</td><td>4 MW</td></tr></tbody></table><p>一个地址线对应一个字节地址，24根地址线对应24个地址，按字节进行编址，则按字节寻址的访问范围就是2<sup>24</sup>=16MB</p><p>如果寻址的方式发生了变化</p><ul><li>如果取16位数字，存储字长（机器字长）是16位，2个字节一个字，按字寻址的方式取16位数字，寻址访问范围就是8MW，W是16位</li><li>如果取32位数字，存储字长（机器字长）是32位，4个字节一个字，按字寻址的方式取16位数字，寻址访问范围就是4MW，W是32位</li></ul><h3 id="4-主存的技术指标"><a href="#4-主存的技术指标" class="headerlink" title="4. 主存的技术指标"></a>4. 主存的技术指标</h3><p>(1) 存储容量主存 存放二进制代码的总位数</p><p>(2) 存储速度</p><ul><li>存取时间（从存储器给出地址一直到得到稳定的数据输出/输入的时间）：存储器的访问时间1. 读出时间2. 写入时间</li><li>存取周期：连续两次独立的存储器操作（读或写）所需的最小间隔时间 读周期 写周期</li></ul><p>(3) 存储器的带宽（单位时间内可以读取/写入多少位的数据）位/秒或字节/秒</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 存储器 </tag>
+            
+            <tag> 主存储器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IELTS</title>
+      <link href="/posts/e877.html"/>
+      <url>/posts/e877.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="IELTS"><a href="#IELTS" class="headerlink" title="IELTS"></a>IELTS</h1><ul><li>剑雅真题8-16</li><li>考点词538</li><li>SIMON雅思课</li><li>慎小嶷写作素材库</li></ul><p>软件</p><ul><li>雅思哥</li><li>雅思考满分</li><li>每日英语听题</li></ul><h2 id="part1"><a href="#part1" class="headerlink" title="part1"></a>part1</h2><ul><li><p>一般加特殊</p><p>设置条件，一定要简单</p><p>​平常怎么样，当什么时候，就怎么样，原因</p><p>​开不开心，忙不忙，周日平时</p></li><li><p>过去加现在</p><p>like之类的，过去怎么现在怎么，原因</p></li><li><p>老年人年轻人男人女人</p><p>一类人怎么样，原因</p></li></ul><h2 id="part2"><a href="#part2" class="headerlink" title="part2"></a>part2</h2><ol><li><p>题库</p></li><li><p>想一个旅游的故事（尽量小众的地方）</p><p><a href="http://lonelyplanet.com/">lonelyplanet.com</a></p><ul><li>在哪</li><li>什么样</li><li>做的一件事</li><li>遇见的一个人</li><li>看到的一个物品</li></ul></li><li><p>应用到题库</p></li></ol><h2 id="小作文"><a href="#小作文" class="headerlink" title="小作文"></a>小作文</h2><p>图表题20min 150词（注意时态）</p><ol><li><p>Introduction</p><p>一句话 介绍图表</p></li><li><p>Overview</p><p>两句话 选两个特点</p><p>不要提到具体的（数字），不需要主观内容</p></li><li><p>Details</p><p>第一句话 说明本段哪个图表</p></li><li><p>Details</p><p>第一句话 说明本段哪个图表</p></li></ol><h2 id="小作文-各图表句式"><a href="#小作文-各图表句式" class="headerlink" title="小作文 各图表句式"></a>小作文 各图表句式</h2><p>Introduction</p><ol><li><p>Given is a/are two</p><ul><li>diagram illustrating the process by which [thing] is [done]/Interaction between …</li><li>graphs/figures/pie charts/line graphs/column graphs/bar</li><li>graphs concerning/comparing/providing a comparison [of/between something] in<br>[place] in [year]/during the period from… to… as well as… in these regions.</li></ul></li><li><p>A glance at the (two) graph/figure/pie chart/table(s) provided reveals</p><ul><li>the relative popularity of [thing] among [ppl] in [place] in [year].</li><li>some/a number of striking similarities/clear differences between [thing] in terms<br>of [length/age/scale] in [place] during the period from… to…</li></ul></li><li><p>The chart/graph gives information regarding…</p></li><li><p>DIAGRAM - The [thing] is/are denoted by [symbol], while the [thing] is/are marked as<br>  [symbol].</p></li></ol><p>  paraphrase tips:<br>  between 1980 and 2012 = over a period of 32 years/over the period shown<br>  the figure for…</p><p>Body 正文</p><ul><li><p>Opening Sentences</p><ol><li>It is evident/apparent from the information supplied that …</li><li>From the information supplied, it is evident that …</li><li>As shown in the figure, …</li><li>While …, it seems that …</li><li>One particular interesting fact highlighted by the figure is that …</li><li>Also evident/noteworthy is the fact that …</li><li>Not surprisingly, … Equally predictable is the fact that …</li><li>As for/with regard to {thing}, …</li><li>It is also interesting to note that …</li><li>In stark contrast, however, …</li><li>In contrast to [party], …</li><li>Yet, by far the most significant change to take place during the period in question was …</li><li>There were also considerable decreases in …</li></ol></li><li><p>Line Graph 折线图</p><ol><li>现在时 - From a negligible [value], the [figure] soars to [value] among …</li><li>过去式 - From [value] in [yr], [figure] climbed steadily to [figure] in [yr], before soaring<br>to a staggering [value] in [yr].</li><li>Increasing from approximately [value] in [year] to [value] in [year], [thing] then plunged<br>to a low of just [value] in the [time].</li><li>The [figure/thing], meanwhile, fluctuated at somewhere between [value n value] prior<br>to [time], before dropping sharply to less than [value] in [time].</li><li>This is/was followed by an exponential growth, with [thing/figure] reaching a peak of<br>[value].</li><li>The [time, eg. latter half of the century; following 5 yrs; subsequent decades], however,<br>saw a sustained decline/rapid growth in this figure, to somewhere in the vicinity of<br>[value] in [time], followed by a steady fall/rise.</li><li>Second in terms of [thing] was [party]. This [party] saw a threefold increase during the<br>period in question, from [value] in [yr] to [value] in [yr].</li><li>Just one year later, A overtook B as the primary source of…</li><li>… increased by progressively small amounts and reached…</li><li>… rose at an increasingly rapid rate, reaching [number] by [year] and [number] in [year].</li></ol></li><li><p>Pie Chart 饼状图</p><ol><li>As for [figure], men outnumber women 24 to 1.</li><li>Overall, the number of [thing, eg. men and women studying part time] outnumbered<br>those [studying full-time] by a significant margin.</li><li>Some 70% of the [thing] are [what], while the remainder are [what].</li><li>Of these [things], [thing] is/was the most …</li><li>Not a single respondent to the survey rated [thing] as … in [yr]. However, by [yr] this<br>figure stood at [value] — the second highest overall.</li><li>Also more popular is [thing], at [value] in [yr] compared to [value] a decade earlier.</li><li>[Thing] — which was the second most [what] in [yr], accounting for [percent] of<br>respondents — slipped to a mere [percent] in [yr].</li><li>[Thing] was far more common in [party] than in any other [party] listed.</li><li>The prevalence of [thing] in [party] was double that of [party] and triple that of [party].</li><li>[Party], meanwhile, had moderate levels of [thing].</li><li>spending on A varied widely in the 3 year and was in the range of 7-16% of the total<br>budget.</li><li>in [year], x% of A did …, while the equivalent figure for B was y%.</li><li>Both UK and USA saw an increase in …, from x1% to x2% in UK and from y1% to y2%<br>in USA.</li><li>Sth account for the highest proportion of UK … in both years, but only the third highest<br>proportion in USA.</li><li>British spent only half as much in relative terms on X as US residents.</li><li>In both countries, A and B took roughly x% and y% of the budgets respectively.</li><li>the majority of … were over 40 years of age. To be precise, …% of them were aged 50 or<br>more, and …% aged between 40 and 49. Younger adults were in the minority, with…</li><li>In Poland, however, studies take almost half the expenditure at 43%, followed by<br>transport at 26%.</li><li>take the vast majority</li></ol></li></ul><p>vocab: account for/make up x%</p><ul><li>Column/bar Graph 柱状图<ol><li>By far the most common [thing] for this group, [thing] and [thing], were [done] a<br>staggering [value] and [value] respectively.</li><li>Numbering (some) [value], [thing] was the second for this group.</li><li>Third (in terms of …) was [thing]</li><li>, at approximately [value].</li><li>. An approximate [value] of [thing] were [done] on [party] during the year in<br>question.</li><li>[Thing] and [thing] were considerably less common, at [value] and [value] respectively.</li><li>[Thing] doubled from around [eg100] in [yr] to well over [eg200] in [yr].</li><li>The number of [thing] over the [eg.3] periods fluctuated, dropping from approximately<br>[value] to [value]. (When X axis is time)</li><li>For [party], the trajectory was less consistent rising sharply in the [time, eg. first decade]<br>and then tapering off to an almost identical level to that of [party] in [time].</li><li>The … partially follow this pattern.</li><li>[figure] lies roughly between these two extremes.</li></ol></li></ul><p>大作文</p><p>议论文40min 250词</p><p>4段13句</p><ol><li>Introduction 2句<ul><li>介绍主题</li><li>给出态度</li></ul></li><li>正文 5句<ul><li>中心句</li><li>3个分论点</li><li>一个例子</li></ul></li><li>正文 5句<ul><li>一个论点</li><li>3句解释</li><li>1句总结</li></ul></li><li>Conclusion 1句<ul><li>第一段第二句话</li></ul></li></ol><h2 id="大作文-6种句型"><a href="#大作文-6种句型" class="headerlink" title="大作文 6种句型"></a>大作文 6种句型</h2><ol><li><p>Simple sentences</p><ul><li>Sugar makes people unhealthy.</li><li>Sugar harms people’s teeth.</li></ul></li><li><p>Compound sentences</p><ul><li>Sugar makes people unhealthy and it harms their teeth.</li></ul></li><li><p>Complex sentences (一篇作文中至少用5句)</p><ul><li><p>While some people will support the tax, others will be against it.</p></li><li><p>Although people will benefit, companies will suffer.</p></li></ul></li><li><p>Passive sentences</p><ul><li>Sugary drinks are known to be addictive.</li></ul></li><li><p>Question sentences (一篇作文中最多用一次)</p><ul><li>But would a sugary tax really work?</li></ul></li><li><p>Conditional sentences (=if)</p><ul><li>If the government had taxed sugary drinks earlier then we would not have an<br>obesity issue now.</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IELTS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>存储器概述</title>
+      <link href="/posts/502d.html"/>
+      <url>/posts/502d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="存储器概述"><a href="#存储器概述" class="headerlink" title="存储器概述"></a>存储器概述</h1><h2 id="一、存储器分类"><a href="#一、存储器分类" class="headerlink" title="一、存储器分类"></a>一、存储器分类</h2><h3 id="1-按存储介质分类"><a href="#1-按存储介质分类" class="headerlink" title="1. 按存储介质分类"></a>1. 按存储介质分类</h3><ul><li><p>半导体存储器 利用01输入，高电平低电平</p><p> (1) 半导体存储器(常见内存条，u盘)：TTL 、MOS 如果没有电源，存储的数据易失</p></li><li><p>磁表面存储器 利用磁性</p><p> (2) 磁表面存储器：磁头、载磁体数据非易失<br> (3) 磁芯存储器（根据穿过磁芯两条导线通电看NS极01储存数据）：硬磁材料、环状元件数据非易失</p></li><li><p>光盘存储器，利用光</p><p> (4) 光盘存储器：激光、磁光材料数据非易失</p></li></ul><h3 id="2-按存取方式分类"><a href="#2-按存取方式分类" class="headerlink" title="2. 按存取方式分类"></a>2. 按存取方式分类</h3><p>   (1) 存取时间与物理地址无关（随机访问）（只要给出地址就行）</p><ul><li>随机存储器RAM：在程序的执行过程中 可 读 可 写</li><li>只读存储器ROM：在程序的执行过程中 只 读</li></ul><p>   (2) 存取时间与物理地址有关（串行访问）</p><ul><li>顺序存取存储器：磁带</li><li>直接存取存储器：磁盘</li></ul><h3 id="3-按在计算机中的作用分类"><a href="#3-按在计算机中的作用分类" class="headerlink" title="3. 按在计算机中的作用分类"></a>3. 按在计算机中的作用分类</h3><p>   <img src="http://toomson.com:81/images/image-20220505082128774.png"></p><p>静态RAM：</p><p>动态RAM：利用电容存储电荷的信息</p><p>MROM：掩模式ROM</p><p>PROM：可编程的ROM</p><p>EPROM：电可编程的ROM</p><p>EEPROM：电可擦写可编程的ROM</p><p>Flash Memory：半导体存储器u盘，计算机硬盘也可以做主存和辅存中间的缓冲SSD，比磁盘快比主存慢</p><p>Cache：主存和CPU之间，一般 用静态RAM做</p><h2 id="二、存储器的层次结构"><a href="#二、存储器的层次结构" class="headerlink" title="二、存储器的层次结构"></a>二、存储器的层次结构</h2><h3 id="1-存储器三个主要特性的关系"><a href="#1-存储器三个主要特性的关系" class="headerlink" title="1. 存储器三个主要特性的关系"></a>1. 存储器三个主要特性的关系</h3><p><img src="http://toomson.com:81/images/image-20220505082259416.png"></p><p>单一的任何一个存储器都不能满足用户需求，所以出现了层次结构的存储体系</p><h3 id="2-缓存-主存层次和主存-辅存层次"><a href="#2-缓存-主存层次和主存-辅存层次" class="headerlink" title="2. 缓存-主存层次和主存-辅存层次"></a>2. 缓存-主存层次和主存-辅存层次</h3><p>存储体系：把两种或两种以上的存储介质，用软件、硬件或软硬件结合的方式连接成一个整体，从程序员来看它拥有高速度，大容量，低价格的存储，是一个透明的整体 不用考虑它的结构，不需要程序员考虑程序分割，程序哪一部分放在主存当中，哪一部分放在辅存当中</p><p><img src="http://toomson.com:81/images/image-20220505082335610.png"></p><ul><li><p>主存和缓存解决速度问题</p><p>采用硬件方法：解决速度问题，cpu和主存速度的不匹配</p><p>使用主存储器的地址，实地址，物理地址，缓存是按内容进行查找，需要缓存也是用主存的地址转化成缓存当中的块号 </p></li><li><p>主存和辅存解决容量问题</p><p>采用软硬件相结合的方法：容量问题速度要求不那么高</p><p>虚拟存储器地址空间不用主存的地址也不用辅存的地址，用虚地址及逻辑地址，然后由厂家负责把他们转化成存储器中的实地址及物理地址</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 存储器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git</title>
+      <link href="/posts/629e.html"/>
+      <url>/posts/629e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git基本操作"><a href="#Git基本操作" class="headerlink" title="Git基本操作"></a>Git基本操作</h1><ul><li><p>git clone 地址http链接  //就可以白嫖代码了</p></li><li><p>git clone ssh链接需要电脑公钥  //关联GitHub库</p></li><li><p>git status   //查看状态</p></li><li><p>git add .</p></li><li><p>git commit -m ‘提交信息’</p></li><li><p>git push</p></li></ul><h2 id="Git工作流程图"><a href="#Git工作流程图" class="headerlink" title="Git工作流程图"></a>Git工作流程图</h2><p> <img src="http://toomson.com:81/images/image-20220505211826793.png"></p><p>命令如下：</p><ol><li><p>clone（克隆）: 从远程仓库中克隆代码到本地仓库</p></li><li><p>checkout （检出）:从本地仓库中检出一个仓库分支然后进行修订</p></li><li><p>add（添加）: 在提交前先将代码提交到暂存区</p></li><li><p>commit（提交）: 提交到本地仓库。本地仓库中保存修改的各个历史版本</p></li><li><p>fetch (抓取) ： 从远程库，抓取到本地仓库，不进行任何的合并动作，一般操作比较少。</p></li><li><p>pull (拉取) ： 从远程库拉到本地库，自动进行合并(merge)，然后放到到工作区，相当于<br> fetch+merge</p></li><li><p>push（推送） : 修改完成后，需要和团队成员共享代码时，将代码推送到远程仓库</p></li></ol><h1 id="下载Git"><a href="#下载Git" class="headerlink" title="下载Git"></a>下载Git</h1><p>   打开Git官网下载地址<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>  一路默认选项安装</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><ol><li><p>打开Git Bash</p></li><li><p>设置用户信息</p></li></ol><p>  git config –global user.name “AngusPink”</p><p>  git config –global user.email “<a href="mailto:1793928068@qq.com">1793928068@qq.com</a>”</p><p>  查看配置信息</p><p>  git config –global user.name</p><p>  git config –global user.email</p><h2 id="为常用指令配置别名"><a href="#为常用指令配置别名" class="headerlink" title="为常用指令配置别名"></a>为常用指令配置别名</h2><p>有些常用的指令参数非常多，每次都要输入好多参数，我们可以使用别名。</p><ol><li><p>打开用户目录，创建.bashrc 文件<br> 部分windows系统不允许用户创建点号开头的文件，可以打开gitBash,执行 touch ~/.bashrc</p></li><li><p>在.bashrc 文件中输入如下内容：</p></li></ol><p>  #用于输出git提交日志<br>  alias git-log=’git log –pretty=oneline –all –graph –abbrev-commit’<br>  #用于输出当前目录所有文件及基本信息<br>  alias ll=’ls -al’</p><ol start="3"><li>打开gitBash，执行source ~/.bashrc</li></ol><h2 id="解决GitBash乱码问题"><a href="#解决GitBash乱码问题" class="headerlink" title="解决GitBash乱码问题"></a>解决GitBash乱码问题</h2><ol><li><p>打开GitBash执行下面命令</p><p>git config –global core.quotepath false</p></li><li><p>${git_home}/etc/bash.bashrc 文件最后加入下面两行</p><p>export LANG=”zh_CN.UTF-8”<br>export LC_ALL=”zh_CN.UTF-8”</p></li></ol><h2 id="获取本地仓库"><a href="#获取本地仓库" class="headerlink" title="获取本地仓库"></a>获取本地仓库</h2><p>要使用Git对我们的代码进行版本控制，首先需要获得本地仓库<br>1）在电脑的任意位置创建一个空目录（例如test）作为我们的本地Git仓库</p><p>2）进入这个目录中，点击右键打开Git bash窗口</p><p>3）执行命令git init</p><p>4）如果创建成功后可在文件夹下看到隐藏的.git目录。</p><h1 id="基础操作指令"><a href="#基础操作指令" class="headerlink" title="基础操作指令"></a>基础操作指令</h1><p>Git工作目录下对于文件的修改(增加、删除、更新)会存在几个状态，这些修改的状态会随着我们执行Git<br>的命令而发生变化。</p><ol><li><p>git add (工作区 –&gt; 暂存区)</p></li><li><p>git commit (暂存区 –&gt; 本地仓库)</p></li><li><p>查看修改的状态（status）<br>作用：查看的修改的状态（暂存区、工作区）<br>命令形式：git status</p></li><li><p>添加工作区到暂存区(add)<br>作用：添加工作区一个或多个文件的修改到暂存区<br>命令形式：git add 单个文件名|通配符<br>将所有修改加入暂存区：git add .</p></li><li><p>提交暂存区到本地仓库(commit)<br>作用：提交暂存区内容到本地仓库的当前分支<br>命令形式：git commit -m ‘注释内容’</p></li><li><p>查看提交日志(log)<br>配置里有，看上面，配置的别名git-log 就包含了这些参数，所以后续可以直接使用指令git-log</p><ul><li>作用:查看提交记录</li><li>命令形式：git log [option]<br>options<br>–all 显示所有分支<br>–pretty=oneline 将提交信息显示为一行<br>–abbrev-commit 使得输出的commitId更简短<br>–graph 以图的形式显示</li></ul></li></ol><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><p>作用：版本切换<br>命令形式：git reset –hard commitID<br>commitID 可以使用git-log 或git log 指令查看<br>如何查看已经删除的记录？<br>git reflog<br>这个指令可以看到已经删除的提交记录</p><h2 id="添加文件至忽略列表"><a href="#添加文件至忽略列表" class="headerlink" title="添加文件至忽略列表"></a>添加文件至忽略列表</h2><p>一般我们总会有些文件无需纳入Git 的管理，也不希望它们总出现在未跟踪文件列表。 通常都是些自动<br>生成的文件，比如日志文件，或者编译过程中创建的临时文件等。 在这种情况下，我们可以在工作目录<br>中创建一个名为 .gitignore 的文件（文件名称固定），列出要忽略的文件模式。下面是一个示例：</p><pre class="line-numbers language-none"><code class="language-none"># no .a files*.a# but do track lib.a, even though you're ignoring .a files above!lib.a# only ignore the TODO file in the current directory, not subdir/TODO/TODO# ignore all files in the build/ directorybuild/# ignore doc/notes.txt, but not doc/server/arch.txtdoc/*.txt# ignore all .pdf files in the doc/ directorydoc/**/*.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>练习：</p><pre class="line-numbers language-none"><code class="language-none">#####################仓库初始化####################### 创建目录（git_test01）并在目录下打开gitbash略# 初始化git仓库git init#####################创建文件并提交###################### 目录下创建文件 file01.txt略# 将修改加入暂存区git add .# 将修改提交到本地仓库，提交记录内容为：commit 001git commit -m 'commit 001'# 查看日志git log####################修改文件并提交####################### 修改file01的内容为：count=1略# 将修改加入暂存区git add .# # 将修改提交到本地仓库，提交记录内容为：update file01git commit --m 'update file01'# 查看日志git log# 以精简的方式显示提交记录git-log####################将最后一次修改还原################### 查看提交记录git-log# 找到倒数第2次提交的commitID略# 版本回退git reset commitID --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><p>几乎所有的版本控制系统都以某种形式支持分支。 使用分支意味着你可以把你的工作从开发主线上分离<br>开来进行重大的Bug修改、开发新的功能，以免影响开发主线。</p><ul><li><p>查看本地分支<br>命令：git branch</p></li><li><p>创建本地分支<br>命令：git branch 分支名</p></li><li><p>切换分支(checkout)<br>命令：git checkout 分支名</p><p>我们还可以直接切换到一个不存在的分支（创建并切换）<br>命令：git checkout -b 分支名</p></li><li><p>合并分支(merge)<br>一个分支上的提交可以合并到另一个分支<br>命令：git merge 分支名称</p></li><li><p>删除分支<br>不能删除当前分支，只能删除其他分支<br>git branch -d b1 删除分支时，需要做各种检查<br>git branch -D b1 不做任何检查，强制删除</p></li><li><p>解决冲突<br>当两个分支上对文件的修改可能会存在冲突，例如同时修改了同一个文件的同一行，这时就需要手动解<br>决冲突，解决冲突步骤:</p><ol><li>处理文件中冲突的地方</li><li>将解决完冲突的文件加入暂存区(add)</li><li>提交到仓库(commit)</li></ol></li><li><p>开发中分支使用原则与流程<br>几乎所有的版本控制系统都以某种形式支持分支。 使用分支意味着你可以把你的工作从开发主线上分离<br>开来进行重大的Bug修改、开发新的功能，以免影响开发主线。<br>在开发中，一般有如下分支使用原则与流程：</p><ul><li><p>master （生产） 分支<br>线上分支，主分支，中小规模项目作为线上运行的应用对应的分支；</p></li><li><p>develop（开发）分支<br>是从master创建的分支，一般作为开发部门的主要开发分支，如果没有其他并行开发不同期上线<br>要求，都可以在此版本进行开发，阶段开发完成后，需要是合并到master分支,准备上线。</p></li><li><p>feature/xxxx分支 </p><p>从develop创建的分支，一般是同期并行开发，但不同期上线时创建的分支，分支上的研发任务完成后合并到develop分支。</p></li><li><p>hotfix/xxxx分支，<br>从master派生的分支，一般作为线上bug修复使用，修复完成后需要合并到master、test、develop分支。</p></li><li><p>还有一些其他分支，在此不再详述，例如test分支（用于代码测试）、pre分支（预上线分支）等<br>等。</p></li></ul></li></ul><p>练习：分支操作</p><pre class="line-numbers language-none"><code class="language-none">###########################创建并切换到dev01分支，在dev01分支提交# [master]创建分支dev01git branch dev01# [master]切换到dev01git checkout dev01# [dev01]创建文件file02.txt略# [dev01]将修改加入暂存区并提交到仓库,提交记录内容为：add file02 on devgit add .git commit -m 'add file02 on dev'# [dev01]以精简的方式显示提交记录git-log###########################切换到master分支，将dev01合并到master分支# [dev01]切换到master分支git checkout master# [master]合并dev01到master分支git merge dev01# [master]以精简的方式显示提交记录git-log# [master]查看文件变化(目录下也出现了file02.txt)略##########################删除dev01分支# [master]删除dev01分支git branch -d dev01# [master]以精简的方式显示提交记录git-log<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="Git远程仓库"><a href="#Git远程仓库" class="headerlink" title="Git远程仓库"></a>Git远程仓库</h1><h2 id="常用的托管服务-远程仓库"><a href="#常用的托管服务-远程仓库" class="headerlink" title="常用的托管服务[远程仓库]"></a>常用的托管服务[远程仓库]</h2><pre class="line-numbers language-none"><code class="language-none">前面我们已经知道了Git中存在两种类型的仓库，即本地仓库和远程仓库。那么我们如何搭建Git远程仓库呢？我们可以借助互联网上提供的一些代码托管服务来实现，其中比较常用的有GitHub、码云、GitLab等。gitHub（ 地址：https://github.com/ ）是一个面向开源及私有软件项目的托管平台，因为只支持Git 作为唯一的版本库格式进行托管，故名gitHub码云（地址： https://gitee.com/ ）是国内的一个代码托管平台，由于服务器在国内，所以相比于GitHub，码云速度会更快GitLab （地址： https://about.gitlab.com/ ）是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的web服务,一般用于在企业、学校等内部网络搭建git私服。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="创建远程仓库"><a href="#创建远程仓库" class="headerlink" title="创建远程仓库"></a>创建远程仓库</h2><h2 id="配置SSH公钥"><a href="#配置SSH公钥" class="headerlink" title="配置SSH公钥"></a>配置SSH公钥</h2><ul><li>生成SSH公钥<br>ssh-keygen -t rsa<br>不断回车<br>如果公钥已经存在，则自动覆盖</li><li>Gitee设置账户共公钥<br>获取公钥<br>cat ~/.ssh/id_rsa.pub</li><li>验证是否配置成功<br>ssh -T <a href="mailto:git@gitee.com">git@gitee.com</a>/<a href="mailto:git@github.com">git@github.com</a></li></ul><h2 id="操作远程仓库"><a href="#操作远程仓库" class="headerlink" title="操作远程仓库"></a>操作远程仓库</h2><ul><li><p>添加远程仓库<br>此操作是先初始化本地库，然后与已创建的远程库进行对接。</p><ul><li>命令： git remote add &lt;远端名称&gt; &lt;仓库路径&gt;<br>远端名称，默认是origin，取决于远端服务器设置<br>仓库路径，从远端服务器获取此URL<br>例如: git remote add origin <a href="mailto:git@gitee.com">git@gitee.com</a>:…/git_test.git</li></ul></li><li><p>查看远程仓库<br>命令：git remote</p></li><li><p>error: remote origin already exists.表示远程仓库已存在。<br>因此你要进行以下操作：<br>1、先输入git remote rm origin 删除关联的origin的远程库<br>2、关联自己的仓库 git remote add origin <a href="mailto:git@gitee.com">git@gitee.com</a>:…/git_test.git<br>3、最后git push origin master，这样就推送到自己的仓库了。</p></li><li><p>推送到远程仓库</p><ul><li><p>命令：git push [-f] [–set-upstream] [远端名称 [本地分支名][:远端分支名] ]</p><p>如果远程分支名和本地分支名称相同，则可以只写本地分支</p><ul><li>git push origin master</li></ul></li><li><p>-f 表示强制覆盖</p></li><li><p>–set-upstream 推送到远端的同时并且建立起和远端分支的关联关系。<br>git push –set-upstream origin master</p></li><li><p>如果当前分支已经和远端分支关联，则可以省略分支名和远端名。<br>git push 将master分支推送到已关联的远端分支。</p></li></ul></li><li><p>本地分支与远程分支的关联关系<br>查看关联关系我们可以使用 git branch -vv 命令</p></li><li><p>从远程仓库克隆<br>如果已经有一个远端仓库，我们可以直接clone到本地。<br>命令: git clone &lt;仓库路径&gt; [本地目录]<br>本地目录可以省略，会自动生成一个目录</p></li><li><p>从远程仓库中抓取和拉取<br>远程分支和本地的分支一样，我们可以进行merge操作，只是需要先把远端仓库里的更新都下载到本<br>地，再进行操作。</p><ul><li><p>抓取 命令：git fetch [remote name] [branch name]<br>抓取指令就是将仓库里的更新都抓取到本地，不会进行合并</p></li><li><p>如果不指定远端名称和分支名，则抓取所有分支。</p></li><li><p>拉取 命令：git pull [remote name] [branch name]</p></li><li><p>拉取指令就是将远端仓库的修改拉到本地并自动进行合并，等同于fetch+merge</p></li><li><p>如果不指定远端名称和分支名，则抓取所有并更新当前分支。</p></li><li><ol><li>在test01这个本地仓库进行一次提交并推送到远程仓库</li><li>在另一个仓库将远程提交的代码拉取到本地仓库</li></ol></li></ul></li><li><p>解决合并冲突<br>在一段时间，A、B用户修改了同一个文件，且修改了同一行位置的代码，此时会发生合并冲突。<br>A用户在本地修改代码后优先推送到远程仓库，此时B用户在本地修订代码，提交到本地仓库后，也需要<br>推送到远程仓库，此时B用户晚于A用户，故需要先拉取远程仓库的提交，经过合并后才能推送到远端分<br>支,如下图所示。</p><p><img src="http://toomson.com:81/images/image-20220505215554051.png"></p><p>在B用户拉取代码时，因为A、B用户同一段时间修改了同一个文件的相同位置代码，故会发生合并冲<br>突。远程分支也是分支，所以合并时冲突的解决方式也和解决本地分支冲突相同相同，在此不再赘述，需要<br>学员自己练习。</p></li><li><p>练习:远程仓库操作</p><pre class="line-numbers language-none"><code class="language-none">##########################1-将本地仓库推送到远程仓库# 完成4.1、4.2、4.3、4.4的操作略# [git_test01]添加远程仓库git remote add origin git@gitee.com/**/**.git# [git_test01]将master分支推送到远程仓库,并与远程仓库的master分支绑定关联关系git push --set-upstream origin master###########################2-将远程仓库克隆到本地# 将远程仓库克隆到本地git_test02目录下git clone git@gitee.com/**/**.git git_test02# [git_test02]以精简的方式显示提交记录git-log###########################3-将本地修改推送到远程仓库# [git_test01]创建文件file03.txt略# [git_test01]将修改加入暂存区并提交到仓库,提交记录内容为：add file03git add .git commit -m 'add file03'# [git_test01]将master分支的修改推送到远程仓库git push origin master###########################4-将远程仓库的修改更新到本地# [git_test02]将远程仓库修改再拉取到本地git pull# 以精简的方式显示提交记录git-log# 查看文件变化(目录下也出现了file03.txt)略<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写作能力的重要性</title>
+      <link href="/posts/5f96.html"/>
+      <url>/posts/5f96.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="写作能力的重要性"><a href="#写作能力的重要性" class="headerlink" title="写作能力的重要性"></a>写作能力的重要性</h1><h2 id="Directions："><a href="#Directions：" class="headerlink" title="Directions："></a>Directions：</h2><p>​For this part, you are allowed 30 minutes to write a short essay on <strong>the importance of writing ability and how to develop it</strong>. you should write at least 120 words but no more than 180 words.</p><h2 id="范文："><a href="#范文：" class="headerlink" title="范文："></a>范文：</h2><p>​Tsinghua University’s decision to make Writing and Communication a required course has sparked a heated debate recently.</p><p>​Many people regard writing as a must-have skill only for certain professions, on which they don’t have to put much emphasis. But writing, as I see it, is a basic ability everyone can’t do without. From composing a well-organized paper, to giving a sharply-focused work report, and even posting a sentiment on WeChat Moments, all aspects of life just require this ability. On top of communications, writing sharpens out logic and cognitive thinking, for it requires reflection, analysis and artful presentation of information and views. So it’s no surprise that top-ranking universities like Harvard made writing a compulsory course even for science majors. </p><p>​Then how to improve writing skills? Certainly there is a shortcut to learning layout and word choice. For example, you can read and imitate excellent works, learning skills from them like expression, rhetoric and coherence. But tricks aren’t enough. Since language is mind-based, one can hardly become a good writer without reading extensively and thinking deeply. Hone your thinking skills while reading, and your writing can be really improved. </p><h2 id="写作储备："><a href="#写作储备：" class="headerlink" title="写作储备："></a>写作储备：</h2><ul><li><p>Be it a school, college, workplace or a society, writing has become a vital yardstick to assess one’s knowledge and intellectuality.</p><p>不管是在中小学，大学，职场还是在社会上，写作已经成为评估一个人知识和智力的重要标尺。</p></li><li><p>Writing improves the thinking process and contributes to the development of critical thinking skills because an individual has to clearly state ideas and lay out arguments in such a way as to cultivate higher order thinking.</p><p>写作能够改善思维过程，并有助于培养批判性思维能力，因为（写作中）个人需要清楚地表述观点并展开论证，这种方法能使我们培养起高阶推理思维。</p></li><li><p>Taking the time to polish your writing skills is likely to pay off in the longer term, and learning how to write specific types of documents will also be useful. For example, being able to prepare a strong summary is a skill that is extremely useful for briefing senior managers.</p><p>花时间完善你的写作技巧从长远来看可能很有价值，学习写作一些特定类型的公文也很有用。举个例子，在给主管作简报时，搞定一份有说服力的概要就是个相当有用的技巧。</p></li><li><p>The ability to write the better sentence or choose the better word does not come from a book, the way grammar can come from a book. It comes with experience. With grammar, you can study the rules, memorize them, and then apply them to your writing almost immediately. The subtler aspects of writing can be learned, but they are usually learned over time through a combination of reading, studying the craft of writing, and practicing. </p><p>写出更好的句子或恰当选择字词的能力并不像语法那样来自书本，而是来源于经验。对于语法，你可以学习规则、记住规则，并且可以几乎马上就将其运用到写作中去。但你要学到写作中一些更微妙的东西，往往需要通过一段时间的阅读，学打写作草稿、练笔实践相结合的方式才行。 </p></li><li><p>Make your advice more practical by demonstrating your tips with lively examples.</p><p>通过生动的例子来论述你的建议，是指更加切实可行。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 作文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>总线控制</title>
+      <link href="/posts/ded4.html"/>
+      <url>/posts/ded4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线控制"><a href="#总线控制" class="headerlink" title="总线控制"></a>总线控制</h1><h2 id="一、总线判优控制"><a href="#一、总线判优控制" class="headerlink" title="一、总线判优控制"></a>一、总线判优控制</h2><h3 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1. 基本概念"></a>1. 基本概念</h3><ul><li>主设备(模块) 可以提出总线占用请求，控制和其他设备之间的通信过程 对总线有 控制权（有些总线可以由多个主设备）</li><li>从设备(模块) 响应 从主设备发来的总线命令</li><li>总线判优控制：集中式(总线控制部件集中在一起)，分布式<ul><li>集中式：链式查询，计数器定时查询，独立请求方式</li><li>分布式</li></ul></li></ul><h3 id="2-链式查询方式"><a href="#2-链式查询方式" class="headerlink" title="2. 链式查询方式"></a>2. 链式查询方式</h3><p><img src="http://toomson.com:81/images/image-20220504174743895.png"></p><p>数据总线：用于信息交换过程中数据传输</p><p>地址总线：主设备占用总线之后，和从设备进行数据传输通过地址总线找到从设备</p><p>BR：所有设备都通过BR发起总线占用请求</p><p>BS：如果有设备占用总线，就通过BS告诉其他设备总线忙</p><p>BG：总线授权线，一个一个向下查询（链式查询）</p><ul><li>I/O接口（外设）有占用请求时，通过BR给总线控制部件发送占用请求</li><li>总线控制部件接受到请求以后且可以让出总线的控制权（BS总线不忙）时，通过BG总线授权信号逐个进行查询是哪个I/O接口（设备）发出的请求</li><li>总线授权信号碰到第一个提出总线占用请求的接口，则它就获得了总线的使用权，并且通过BS设置总线忙</li></ul><p>链式查询</p><p><strong>缺点</strong>：优先级事先已经确定的，优先级太低的可能一直得不到总线授权。对电路故障特别敏感，如果BG上的某接口出现电路故障，信号不会往下传，后面的设备永远无法获得使用权，速度慢</p><p><strong>优点</strong>：结构简单，优先级算法简单，增删设备简单，进行可靠性设计时容易实现</p><p>一般运用在微型计算机，简单的嵌入式系统中</p><h3 id="3-计数器定时查询方式"><a href="#3-计数器定时查询方式" class="headerlink" title="3. 计数器定时查询方式"></a>3. 计数器定时查询方式</h3><p><img src="http://toomson.com:81/images/image-20220504174813034.png"></p><p>BG线变成了设备地址线（宽度和设备地址有关）</p><ul><li>I/O接口（外设）有占用请求时，通过BR给总线控制部件发送占用请求</li><li>总线控制部件接受到请求以后且可以让出总线的控制权（BS总线不忙）时，启动总线控制部件中的计数器，计数器的值通过设备地址这条线向外输出查询接口</li><li>计数器根据计数器的值访问对应I/O接口，如果不是就加一，继续访问，直到碰到第一个提出总线占用请求的接口，则它就获得了总线的使用权，并且通过BS设置总线忙</li></ul><p><strong>缺点</strong>：比链式查询需要的线多，log<sub>2</sub>n向上取整+2条线，速度慢</p><p><strong>优点</strong>：优先级确定非常灵活，如：每次从0或K开始一直到n，则0或k接口优先级最高，如：每次从上一次数值开始变成循环优先级等等。</p><h3 id="4-独立请求方式"><a href="#4-独立请求方式" class="headerlink" title="4. 独立请求方式"></a>4. 独立请求方式</h3><p><img src="http://toomson.com:81/images/image-20220504175225883.png"></p><p>每个接口都有自己的BR，BG线</p><p>优先级由总线控制部件内部的排队器决定</p><ul><li>I/O接口（外设）有占用请求时，通过自己的BR给总线控制部件发送占用请求</li><li>总线控制部件接受到请求以后且可以让出总线的控制权（BS总线不忙）时，经过排队其排队以后，对某一个（根据优先级）提出总线控制请求的设备进行总线授权</li><li>获得总线控制部件应答的设备，就占用了总线的使用权</li></ul><p><strong>优点</strong>：优先级确定非常灵活，自定义排队器</p><p><strong>缺点</strong>：需要的线多2n条线</p><h2 id="二、总线通信控制"><a href="#二、总线通信控制" class="headerlink" title="二、总线通信控制"></a>二、总线通信控制</h2><h3 id="1-目的：-解决通信双方协调配合问题"><a href="#1-目的：-解决通信双方协调配合问题" class="headerlink" title="1. 目的： 解决通信双方协调配合问题"></a>1. 目的： 解决通信双方协调配合问题</h3><h3 id="2-总线传输周期"><a href="#2-总线传输周期" class="headerlink" title="2. 总线传输周期"></a>2. 总线传输周期</h3><ul><li>申请分配阶段： 主模块申请，总线仲裁决定（总线判优逻辑：上面所解决的问题）</li><li>寻址阶段： 主模块（向从模块）给出地址（找到从设备） 和 命令（控制从设备完成相应的操作）</li><li>传数阶段： 主模块和从模块交换数据</li><li>结束阶段： 主模块和从模块都撤消有关信息</li></ul><h3 id="3-总线通信的四种方式"><a href="#3-总线通信的四种方式" class="headerlink" title="3. 总线通信的四种方式"></a>3. 总线通信的四种方式</h3><ul><li><p>同步通信：由统一时标控制数据传送 <strong>应用在总线长度比较短且各个模块存取时间比较一致的情况下</strong></p></li><li><p>异步通信：采用应答方式 ，没有公共时钟标准</p></li><li><p>半同步通信： 同步、异步结合</p></li><li><p>分离式通信： 充分挖掘系统总线每个瞬间的潜力</p></li></ul><hr><h4 id="同步通信：由统一时标控制数据传送-主从模块是强制同步的，速度不同模块需要选择速度最慢的模块作为统一的时标"><a href="#同步通信：由统一时标控制数据传送-主从模块是强制同步的，速度不同模块需要选择速度最慢的模块作为统一的时标" class="headerlink" title="同步通信：由统一时标控制数据传送(主从模块是强制同步的，速度不同模块需要选择速度最慢的模块作为统一的时标)"></a>同步通信：由统一时标控制数据传送(主从模块是强制同步的，速度不同模块需要选择速度最慢的模块作为统一的时标)</h4><p>CPU用同步通信的方式从外部设备进行数据输入</p><p>同步通讯有定宽定距的时标来控制整个数据的传输过程</p><p>时钟信号：总线传输周期由四个时钟周期构成，这四个时钟周期就可以完成一次完整可靠的数据通信</p><p>CPU完成数据输入需要地址信号，读信号，从设备在给定的时间点上给出数据的输出，对CPU来说时数据的输入</p><p><strong>在固定的时间点上要给出固定的操作：</strong></p><ul><li><p>T1时钟周期的上升沿CPU（主设备）必须给出地址信号，</p></li><li><p>T2时钟周期的上升沿必须给出读命令信号告诉从设备CPU（主设备）要从从模块读入数据</p></li><li><p>T3时钟周期的上升沿到达之前从设备必须通过数据总线给出数据信号</p></li><li><p>T4时钟周期的上升沿数据信号和读信号（控制信号）可以撤销，T4结束时地址信号也撤销</p></li></ul><p><img src="http://toomson.com:81/images/image-20220504192233922.png"></p><p>CPU用同步通信的方式把数据输出到外部设备</p><p>同步通讯有定宽定距的时标来控制整个数据的传输过程</p><p>时钟信号：总线传输周期由四个时钟周期构成，这四个时钟周期就可以完成一次完整可靠的数据通信</p><p>CPU完成数据输入需要地址信号，写信号</p><p><strong>在固定的时间点上要给出固定的操作：</strong></p><ul><li><p>T1时钟周期的上升沿CPU（主设备）必须给出地址信号，</p></li><li><p>T1时钟周期的下降沿给出数据</p></li><li><p>T2时钟周期的上升沿必须给出写命令信号 向从设备进行数据写入</p></li><li><p>T4时钟周期的上升沿数据信号和写信号（控制信号）可以撤销，T4结束时地址信号也撤销</p></li></ul><p><img src="http://toomson.com:81/images/image-20220504192257624.png"></p><h4 id="异步通信：-采用应答方式，没有公共时钟标准"><a href="#异步通信：-采用应答方式，没有公共时钟标准" class="headerlink" title="异步通信： 采用应答方式，没有公共时钟标准"></a>异步通信： 采用应答方式，没有公共时钟标准</h4><p>主设备发起请求，从设备受主设备控制，不用定宽定距的时钟</p><p><img src="http://toomson.com:81/images/image-20220504192313295.png"></p><ul><li><p><strong>异步通信不互锁方式（通信没有可靠性）：</strong>主设备发起通信请求，从设备接受到主设备请求发出应答信号，主设备撤销请求信号，从设备撤销应答信号，主设备不管有没有收到应答信号，一定延时后都会撤销请求信号，从设备不管主设备有没有接到应答信号，一定延时后都会撤销应答信号</p></li><li><p><strong>异步通信半互锁方式（可能造成主设备请求信号一直保持高电平）：</strong>主设备发起通信请求，从设备接受到主设备请求发出应答信号，主设备接收到应答信号以后撤销请求信号，如果接收不到，请求信号会保持，从设备不管主设备有没有接到应答信号，一定延时后都会撤销应答信号</p></li><li><p><strong>异步通信全互锁方式（通过握手信号完成可靠的数据传输通信联络）：</strong>主设备发起通信请求，从设备接受到主设备请求发出应答信号，主设备接收到应答信号以后撤销请求信号，如果接收不到，请求信号会保持，只有主设备的请求信号撤销以后，从设备才会撤销自己的应答信号</p></li></ul><h4 id="半同步通信：-同步、异步结合"><a href="#半同步通信：-同步、异步结合" class="headerlink" title="半同步通信： 同步、异步结合"></a>半同步通信： 同步、异步结合</h4><ul><li><p>同步： 发送方 用系统 时钟前沿 发信号 </p><p>接收方 用系统 时钟后沿 判断、识别</p></li><li><p>异步 允许不同速度的模块和谐工作 增加一条 “等待”响应信号 WAIT</p></li></ul><p>以输入数据为例的半同步通信时序（主模块熟读快，等从模块回应）</p><p>T1 主模块发地址</p><p>T2 主模块发命令</p><p>Tw 当 WAIT为低电平时，等待一个 T</p><p>Tw 当 WAIT为低电平时，等待一个 T</p><p>…</p><p>T3 从模块提供数据</p><p>T4 从模块撤销数据，主模块撤销命令</p><ul><li><p>T1时钟周期的上升沿CPU（主设备）必须给出地址信号，</p></li><li><p>T2时钟周期的上升沿必须给出读命令信号告诉从设备CPU（主设备）要从从模块读入数据</p></li><li><p>T3时钟周期开始之前，从设备如果不能把数据准备好，通过WAIT信号给出低电平，告诉主设备进行等待，CPU会在第三个时钟周期到来之前插入一个时钟周期Tw（循环往复）</p></li><li><p>数据已经准备好放在数据总线上，WAIT变成高电平时，则该Tw结束后开始T3周期</p></li><li><p>T4时钟周期的上升沿数据信号和读信号（控制信号）可以撤销，T4结束时地址信号也撤销</p></li></ul><p><img src="http://toomson.com:81/images/image-20220504192531533.png"></p><h4 id="上述三种通信的共同点"><a href="#上述三种通信的共同点" class="headerlink" title="上述三种通信的共同点"></a>上述三种通信的共同点</h4><p>一个总线传输周期（以输入数据为例）</p><ul><li>主模块发地址 、命令： 占用总线</li><li>从模块准备数据： 不占用总线 总线空闲</li><li>从模块向主模块发数据： 占用总线</li></ul><p>总线有空闲</p><h4 id="分离式通信-充分挖掘系统总线每个瞬间的潜力"><a href="#分离式通信-充分挖掘系统总线每个瞬间的潜力" class="headerlink" title="分离式通信 充分挖掘系统总线每个瞬间的潜力"></a>分离式通信 充分挖掘系统总线每个瞬间的潜力</h4><p>一个总线传输周期，子周期1和2之间用来让从模块准备数据，子周期2中从模块已经变成了主模块</p><p><img src="http://toomson.com:81/images/image-20220504192742183.png"></p><p><strong>读数据时，准备数据 硬盘有三步操作：</strong></p><p>主模块向从模块发出找指定磁道请求后，放弃总线使用权</p><ol><li>定位：磁头镜像移动，寻找指定磁道（时间长）</li></ol><p>硬盘找到指定磁道变成主模块，发出找对应扇区的请求后，放弃总线使用权</p><ol start="2"><li>找到指定扇区：磁头停止在磁盘表面不动，磁盘围绕轴转动（时间长）</li></ol><p>硬盘找到指定扇区变成主模块，发出读请求，进行数据传输</p><ol start="3"><li>读数据</li></ol><ul><li>分离式通信特点（充分提高了总线的有效占用）</li></ul><ol><li>各模块有权申请占用总线</li><li>采用同步方式通信，不等对方回答</li><li>各模块准备数据时，不占用总线</li><li>总线被占用时，无空闲</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 系统总线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>总线结构</title>
+      <link href="/posts/8e28.html"/>
+      <url>/posts/8e28.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线结构"><a href="#总线结构" class="headerlink" title="总线结构"></a>总线结构</h1><h2 id="一、单总线结构"><a href="#一、单总线结构" class="headerlink" title="一、单总线结构"></a>一、单总线结构</h2><p><img src="http://toomson.com:81/images/image-20220504164620305.png"></p><p>把所有设备连接到一条总线上，导致总线成为系统瓶颈，采用多总线结构</p><h2 id="二、多总线结构"><a href="#二、多总线结构" class="headerlink" title="二、多总线结构"></a>二、多总线结构</h2><h3 id="1-双总线结构"><a href="#1-双总线结构" class="headerlink" title="1. 双总线结构"></a>1. 双总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504164653818.png"></p><p>存储总线和I/O总线分离，通过通道连接，通道有自己的控制器，指令系统等等，通道通常由操作系统来编写的</p><h3 id="2-三总线结构"><a href="#2-三总线结构" class="headerlink" title="2.三总线结构"></a>2.三总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504164824689.png"></p><p>DMA总线：直接存储器访问，高速外设直接访问内存，低速还要走I/O总线</p><h3 id="3-三总线结构的又一形式"><a href="#3-三总线结构的又一形式" class="headerlink" title="3. 三总线结构的又一形式"></a>3. 三总线结构的又一形式</h3><p><img src="http://toomson.com:81/images/image-20220504164856098.png"></p><p>CPU更新快，内存速度迭代慢，在CPU和内存之间增加了一个小容量高速度的Cache，对主存中的数据进行缓存，CPU运行需要的指令和数据主要从Cache中获取，局部总线把CPU和Cache连接起来，局部I/O控制器连接高速I/O设备，系统总线通过扩展总线接口连接扩展总线，各种设备都连接到了扩展总线上，解决了I/O设备的扩展问题。但是多种类型的设备连接到扩展总线，影响外设的工作速度</p><h3 id="4-四总线结构"><a href="#4-四总线结构" class="headerlink" title="4. 四总线结构"></a>4. 四总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504164916758.png"></p><p>局部总线连接CPU和Cache/桥，系统总线连接主存和Cache/桥，桥电路扩展出了一个高速总线，用来连接高速外设，低速设备可以连接到扩展总线上，扩展总线通过接口连接高速总线，把高速和低速分开组织，提高数据传输速率</p><h2 id="三、总线结构举例"><a href="#三、总线结构举例" class="headerlink" title="三、总线结构举例"></a>三、总线结构举例</h2><h3 id="1-传统微型机总线结构"><a href="#1-传统微型机总线结构" class="headerlink" title="1. 传统微型机总线结构"></a>1. 传统微型机总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504164953198.png"></p><h3 id="2-VL-BUS局部总线结构"><a href="#2-VL-BUS局部总线结构" class="headerlink" title="2. VL-BUS局部总线结构"></a>2. VL-BUS局部总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504165019568.png"></p><p>VL-BUS高速低速分开</p><h3 id="3-PCI-总线结构"><a href="#3-PCI-总线结构" class="headerlink" title="3. PCI 总线结构"></a>3. PCI 总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504165038862.png"></p><p>PCI高速低速分开</p><h3 id="4-多层-PCI-总线结构"><a href="#4-多层-PCI-总线结构" class="headerlink" title="4. 多层 PCI 总线结构"></a>4. 多层 PCI 总线结构</h3><p><img src="http://toomson.com:81/images/image-20220504165130535.png"></p><p>如果PCI总线连接的设备太多，总线驱动能力不够，可以通过PCI桥进行扩展</p><p>CPU和存储器通过存储器总线连接，下面是桥电路，通过桥电路实现驱动能力的提高</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 系统总线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>总线特性及性能指标</title>
+      <link href="/posts/361f.html"/>
+      <url>/posts/361f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线特性及性能指标"><a href="#总线特性及性能指标" class="headerlink" title="总线特性及性能指标"></a>总线特性及性能指标</h1><h2 id="一、总线物理实现"><a href="#一、总线物理实现" class="headerlink" title="一、总线物理实现"></a>一、总线物理实现</h2><p><img src="http://toomson.com:81/images/image-20220504161536311.png"></p><p>总线印刷在主板（印刷电路板）上 ，在总线上留出接口给模块插板用来连接</p><h2 id="二、总线特性"><a href="#二、总线特性" class="headerlink" title="二、总线特性"></a>二、总线特性</h2><ol><li>机械特性尺寸、形状、管脚数 及 排列顺序</li><li>电气特性    传输方向 和有效的 电平 范围</li><li>功能特性    每根传输线的 功能：地址，数据，控制</li><li>时间特性    信号的 时序 关系</li></ol><h2 id="三、总线的性能指标"><a href="#三、总线的性能指标" class="headerlink" title="三、总线的性能指标"></a>三、总线的性能指标</h2><ol><li>总线宽度    数据线 的根数</li><li>标准传输率    每秒传输的最大字节数（MBps）</li><li>时钟同步/异步    同步、不同步</li><li>总线复用    地址线 与 数据线 复用</li><li>信号线数    地址线、数据线和控制线的 总和</li><li>总线控制方式   突发、自动、仲裁、逻辑、计数</li><li>其他指标    负载能力</li></ol><h2 id="四、总线标准"><a href="#四、总线标准" class="headerlink" title="四、总线标准"></a>四、总线标准</h2><p><img src="http://toomson.com:81/images/image-20220504162918597.png"></p><p><img src="http://toomson.com:81/images/image-20220504162942519.png"></p><p>带宽（2<em>8）=数据线（16根就是2字节Byte）</em>总线时钟（8MHz）</p><p>ISA：工业标准体系结构</p><p>EISA：兼容ISA</p><p>VESA（VL-BUS）：视频电子标准协会 大部分信号来自CPU 驱动能力差</p><p>PCI：外设部件互联标准 独立于处理器的结构 形成特殊的中间缓冲器式的设计，把中央处理器子系统和外设分开，用户可以随意添加外设，不用担心在不同的时钟频率下导致计算机性能的下降</p><p>AGP：Inter推出的接口，点对点的局部总线 为了连接控制芯片和显卡</p><p>RS-232：串行通信 总线标准</p><p>USB：串行接口 总线标准</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 系统总线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>总线的分类</title>
+      <link href="/posts/218d.html"/>
+      <url>/posts/218d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线的分类"><a href="#总线的分类" class="headerlink" title="总线的分类"></a>总线的分类</h1><h2 id="1-片内总线"><a href="#1-片内总线" class="headerlink" title="1.片内总线"></a>1.片内总线</h2><p>芯片内部 的总线</p><h2 id="2-系统总线"><a href="#2-系统总线" class="headerlink" title="2.系统总线"></a>2.系统总线</h2><p>计算机各部件之间 的信息传输线</p><p>数据总线双向 与机器字长、存储字长有关<br>地址总线单向 与存储地址、 I/O地址有关<br>控制总线有出（中断请求、总线请求） 有入（存储器读、存储器写 总线允许、中断确认）</p><h2 id="3-通信总线"><a href="#3-通信总线" class="headerlink" title="3.通信总线"></a>3.通信总线</h2><p>用于 计算机系统之间 或 计算机系统与其他系统（如控制仪表、移动通信等）之间的通信</p><p>传输方式：串行通信总线 并行通信总线</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 系统总线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>总线的基本概念</title>
+      <link href="/posts/a913.html"/>
+      <url>/posts/a913.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线的基本概念"><a href="#总线的基本概念" class="headerlink" title="总线的基本概念"></a>总线的基本概念</h1><h2 id="一、为什么要用总线"><a href="#一、为什么要用总线" class="headerlink" title="一、为什么要用总线"></a>一、为什么要用总线</h2><p>把各个部件连接起来，方便维护管理各部件</p><h2 id="二、什么是总线"><a href="#二、什么是总线" class="headerlink" title="二、什么是总线"></a>二、什么是总线</h2><p>总线是连接各个部件的信息传输线，是各个部件共享的传输介质</p><h2 id="三、总线上信息的传送"><a href="#三、总线上信息的传送" class="headerlink" title="三、总线上信息的传送"></a>三、总线上信息的传送</h2><p>串行——-</p><p>并行=======</p><h2 id="四、总线结构的计算机举例"><a href="#四、总线结构的计算机举例" class="headerlink" title="四、总线结构的计算机举例"></a>四、总线结构的计算机举例</h2><ol><li><p>单总线结构框图</p><p><img src="http://toomson.com:81/images/image-20220503193412183.png"></p></li><li><p>面向 CPU 的双总线结构框图</p><p><img src="http://toomson.com:81/images/image-20220503193429525.png"></p></li><li><p>以存储器为中心的双总线结构框图</p><p><img src="http://toomson.com:81/images/image-20220503193451453.png"></p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 系统总线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机的展望</title>
+      <link href="/posts/cc91.html"/>
+      <url>/posts/cc91.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机的展望"><a href="#计算机的展望" class="headerlink" title="计算机的展望"></a>计算机的展望</h1><p>一、计算机具有类似人脑的一些超级智能功能</p><p>要求计算机的速度要足够快</p><p>二、芯片集成度的提高受以下三方面的限制</p><ul><li>芯片集成度受物理极限的制约</li><li>按几何级数递增的制作成本</li><li>芯片的功耗、散热、线延迟</li></ul><p>三、替代传统的硅芯片</p><ol><li><p>光计算机</p><p>利用光子取代电子进行运算和存储</p></li><li><p>DNA生物计算机</p><p>通过控制DNA分子间的生化反应</p></li><li><p>量子计算机</p><p>利用原子所具有的量子特性</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机的发展及应用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机的应用</title>
+      <link href="/posts/e423.html"/>
+      <url>/posts/e423.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机的应用"><a href="#计算机的应用" class="headerlink" title="计算机的应用"></a>计算机的应用</h1><p>一、科学计算和数据处理</p><p>二、工业控制和实时控制</p><p>三、网络技术</p><ol><li>电子商务</li><li>网络教育</li><li>敏捷制造</li></ol><p>四、虚拟现实</p><p>五、办公自动化和管理信息系统</p><p>六、CAD/CAM/CIMS</p><p>七、多媒体技术</p><p>八、人工智能</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机的发展及应用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机的发展史</title>
+      <link href="/posts/da98.html"/>
+      <url>/posts/da98.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机的发展史"><a href="#计算机的发展史" class="headerlink" title="计算机的发展史"></a>计算机的发展史</h1><h2 id="一、计算机的产生和发展"><a href="#一、计算机的产生和发展" class="headerlink" title="一、计算机的产生和发展"></a>一、计算机的产生和发展</h2><p>世界上第一台电子计算机 ENIAC(1946)</p><p>1946年 美国 ENIAC 1955年退役<br>  十进制运算<br>  18 000多个电子管<br>  1 500 多个继电器<br>  150千瓦<br>  30吨<br>  1 500平方英尺<br>  5 000 次加法／秒<br>  用手工搬动开关和拔插电缆来编程</p><h3 id="现代计算机产生的驱动力"><a href="#现代计算机产生的驱动力" class="headerlink" title="现代计算机产生的驱动力"></a>现代计算机产生的驱动力</h3><ul><li><p>需求、需求、还是需求</p></li><li><p>技术发展</p><ul><li><p>电子技术的发展</p></li><li><p>计算机体系结构技术的发展</p></li></ul></li></ul><h3 id="硬件技术对计算机更新换代的影响"><a href="#硬件技术对计算机更新换代的影响" class="headerlink" title="硬件技术对计算机更新换代的影响"></a>硬件技术对计算机更新换代的影响</h3><table><thead><tr><th>代</th><th>时间</th><th>硬件技术</th><th>速度（次/秒）</th></tr></thead><tbody><tr><td>一</td><td>1946－1957</td><td>电子管</td><td>40 000</td></tr><tr><td>二</td><td>1958－1964</td><td>晶体管</td><td>200 000</td></tr><tr><td>三</td><td>1965－1971</td><td>中小规模集成电路</td><td>1 000 000</td></tr><tr><td>四</td><td>1972－1977</td><td>大规模集成电路</td><td>10 000 000</td></tr><tr><td>五</td><td>1978－现在</td><td>超大规模集成电路</td><td>100 000 000</td></tr></tbody></table><h3 id="IAS的逻辑结构"><a href="#IAS的逻辑结构" class="headerlink" title="IAS的逻辑结构"></a>IAS的逻辑结构</h3><p>以运算器为中心的冯诺依曼计算机结构</p><p><img src="http://toomson.com:81/images/image-20220504010444457.png"></p><table><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Main Memory</td><td>&lt;=&gt;</td><td>Arithmetic Logic Unit</td><td>&lt;=&gt;</td><td>I/O Equipment</td></tr><tr><td></td><td></td><td>||</td><td></td><td></td></tr><tr><td></td><td>&lt;=&gt;</td><td>Program Control Unit</td><td></td><td></td></tr></tbody></table><h3 id="IBM-System-x2F-360"><a href="#IBM-System-x2F-360" class="headerlink" title="IBM System / 360"></a>IBM System / 360</h3><p>系列产品 大中小型360</p><h2 id="二、微型计算机的出现和发展"><a href="#二、微型计算机的出现和发展" class="headerlink" title="二、微型计算机的出现和发展"></a>二、微型计算机的出现和发展</h2><p>微处理器：用一片大规模的集成电路，组成的处理器，集成了运算器和控制器</p><p>微型计算机：使用微处理器、集成度相当高、大规模集成电路，面向个人用户体积小、重量轻、价格低的计算机</p><table><thead><tr><th>微处理器芯片（Intel）</th><th>1971年</th><th>存储器芯片</th><th>1970</th></tr></thead><tbody><tr><td>4位（4004）</td><td>1971</td><td>256 位</td><td></td></tr><tr><td>8位（8080）</td><td>1974</td><td>1 K位</td><td></td></tr><tr><td>16位（8086、80286）2.9 万个晶体管</td><td>1979、1982</td><td>4 K位</td><td></td></tr><tr><td>32位（80386、80486）27.5 万个晶体管</td><td>1985、1989</td><td>16 K位</td><td></td></tr><tr><td>64位（Pentium、Pentium Pro、Pentium Ⅱ、Pentium Ⅲ、Pentium Ⅳ）4 200.0 万个晶体管</td><td>1993、1995、1997、1999、2000</td><td>64 K位</td><td></td></tr><tr><td>目前芯片可集成30亿个晶体管</td><td></td><td>256 K位</td><td></td></tr><tr><td></td><td></td><td>1 M位</td><td></td></tr><tr><td></td><td></td><td>4 M位</td><td></td></tr><tr><td></td><td></td><td>16 M位</td><td></td></tr><tr><td></td><td></td><td>64 M位</td><td></td></tr></tbody></table><p>Moore 定律：Intel 公司的缔造者之一 Gordon Moore 提出微芯片上集成的晶体管数目每三年翻两番（4倍）</p><h2 id="三、软件技术的兴起和发展"><a href="#三、软件技术的兴起和发展" class="headerlink" title="三、软件技术的兴起和发展"></a>三、软件技术的兴起和发展</h2><h3 id="1-各种语言"><a href="#1-各种语言" class="headerlink" title="1. 各种语言"></a>1. 各种语言</h3><p>   机器语言 面向机器</p><p>   汇编语言 面向机器</p><p>   高级语言 面向问题</p><p>   ​FORTRAN 科学计算和工程计算</p><p>   ​PASCAL 结构化程序设计</p><p>   ​C＋＋ 面向对象</p><p>   ​Java 适应网络环境</p><h3 id="2-系统软件"><a href="#2-系统软件" class="headerlink" title="2. 系统软件"></a>2. 系统软件</h3><table><thead><tr><th>语言处理程序</th><th>汇编程序 编译程序 解释程序</th></tr></thead><tbody><tr><td>操作系统</td><td>DOS、UNIX、Windows、Linux、Kylin Linux</td></tr><tr><td>服务性程序</td><td>装配 调试 诊断 排错</td></tr><tr><td>数据库管理系统</td><td>数据库和数据库管理软件</td></tr><tr><td>网络软件</td><td></td></tr></tbody></table><h3 id="3-软件发展的特点"><a href="#3-软件发展的特点" class="headerlink" title="3. 软件发展的特点"></a>3. 软件发展的特点</h3><ol><li><p>开发周期长</p></li><li><p>制作成本昂贵</p></li><li><p>检测软件产品质量的特殊性</p><p>软件是程序以及开发、使用和维护程序所需要的所有文档</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机的发展及应用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机基本指标</title>
+      <link href="/posts/58ec.html"/>
+      <url>/posts/58ec.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机硬件的主要技术指标"><a href="#计算机硬件的主要技术指标" class="headerlink" title="计算机硬件的主要技术指标"></a>计算机硬件的主要技术指标</h1><ul><li><h2 id="1-机器字长"><a href="#1-机器字长" class="headerlink" title="1.机器字长"></a>1.机器字长</h2><p>CPU 一次能处理数据的位数 与 CPU 中的 寄存器位数 有关（相等）</p></li><li><h2 id="2-运算速度"><a href="#2-运算速度" class="headerlink" title="2.运算速度"></a>2.运算速度</h2><p>主频</p><p>核数，每个核支持的线程数</p><p>吉普森法</p><p>CPI 执行一条指令所需时钟周期数</p><p>IPC 一个时钟周期数能执行多少条指令</p><p>MIPS 每秒执行百万条指令</p><p>FLOPS 每秒浮点运算次数</p></li><li><h2 id="3-存储容量"><a href="#3-存储容量" class="headerlink" title="3.存储容量"></a>3.存储容量</h2><p>存放二进制信息的总位数</p><ul><li><p>主存容量</p><ol><li><p>存储单元个数 × 存储字长</p><table><thead><tr><th>MAR</th><th>MDR</th><th>容量</th></tr></thead><tbody><tr><td>10位</td><td>8位</td><td>1 K*8位（1 K=2<sup>10</sup>）</td></tr><tr><td>16位</td><td>32位</td><td>64 K*32位</td></tr></tbody></table></li><li><p>字节数</p><p>2<sup>13</sup> b= 1 KB(1 B = 2<sup>3</sup> b)</p><p>2<sup>21</sup> b= 256 KB</p></li></ol></li><li><p>辅存容量</p><p>字节数 80 GB（1GB = 2<sup>30</sup>B）</p></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机系统概论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机的基本组成</title>
+      <link href="/posts/87b8.html"/>
+      <url>/posts/87b8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机的基本组成"><a href="#计算机的基本组成" class="headerlink" title="计算机的基本组成"></a>计算机的基本组成</h1><p>现在的计算机都是存储程序结构的计算机</p><h2 id="一、冯·诺依曼计算机（以运算器为中心）的特点"><a href="#一、冯·诺依曼计算机（以运算器为中心）的特点" class="headerlink" title="一、冯·诺依曼计算机（以运算器为中心）的特点"></a>一、冯·诺依曼计算机（以运算器为中心）的特点</h2><p><img src="http://toomson.com:81/images/image-20220504004646123.png"></p><ol><li>计算机由五大部件组成（输入设备，运算器，控制器，存储器，输出设备）</li><li>指令和数据以同等地位存于存储器，可按地址寻访</li><li>指令和数据用二进制表示</li><li>指令由操作码和地址码组成</li><li>存储程序</li><li>以运算器为中心</li></ol><h2 id="二、计算机硬件框图"><a href="#二、计算机硬件框图" class="headerlink" title="二、计算机硬件框图"></a>二、计算机硬件框图</h2><h3 id="1-计算机硬件框图（以存储器为中心）"><a href="#1-计算机硬件框图（以存储器为中心）" class="headerlink" title="1.计算机硬件框图（以存储器为中心）"></a>1.计算机硬件框图（以存储器为中心）</h3><p><img src="http://toomson.com:81/images/image-20220504005110646.png"></p><h3 id="2-现代计算机硬件框图"><a href="#2-现代计算机硬件框图" class="headerlink" title="2.现代计算机硬件框图"></a>2.现代计算机硬件框图</h3><p><img src="http://toomson.com:81/images/image-20220504005207613.png"></p><p>CPU：ALU（运算器），CU（控制器）</p><p>存储器：主存，副存</p><p>主机：CPU，存储器</p><p>I/O设备：输入设备，输出设备</p><p>硬件：主机系统，I/O设备</p><h3 id="系统复杂性管理的方法-2（3’Y）"><a href="#系统复杂性管理的方法-2（3’Y）" class="headerlink" title="系统复杂性管理的方法-2（3’Y）"></a>系统复杂性管理的方法-2（3’Y）</h3><ul><li>层次化（Hierachy）：将被设计的系统划分为多个模块或子模块</li><li>模块化（Modularity）：有明确定义（well-defined）的功能和接口</li><li>规则性（regularity）：模块更容易被重用</li></ul><h2 id="三、计算机的工作步骤"><a href="#三、计算机的工作步骤" class="headerlink" title="三、计算机的工作步骤"></a>三、计算机的工作步骤</h2><p>一个现实中的问题，如何用计算机来解决？</p><h3 id="1-上机前的准备"><a href="#1-上机前的准备" class="headerlink" title="1. 上机前的准备"></a>1. 上机前的准备</h3><ul><li><p>建立数学模型</p></li><li><p>编制解题程序 </p></li><li><p>确定计算方法<br>程序 —— 运算的 全部步骤<br>指令 —— 每 一个步骤</p></li><li><p>编程举例：计算 ax<sup>2</sup> + bx + c= (ax + b)x + c</p></li></ul><ol><li>取x 至运算器中</li><li>乘以x 在运算器中</li><li>乘以a 在运算器中</li><li>存ax2 在存储器中</li><li>取b 至运算器中</li><li>乘以x 在运算器中</li><li>加ax2 在运算器中</li><li>加c 在运算器中</li></ol><p>或者</p><ol><li>取x 至运算器中</li><li>乘以a 在运算器中</li><li>加b 在运算器中</li><li>乘以x 在运算器中</li><li>加c 在运算器中</li></ol><ul><li>指令格式举例：操作码|地址码</li></ul><table><thead><tr><th>指令和数据存于主存单元的地址</th><th align="left">操作码</th><th>地址码</th><th>步骤</th><th>注释</th></tr></thead><tbody><tr><td>0</td><td align="left">000001(取数)</td><td>0000001000（α）</td><td>[α] -&gt;ACC</td><td>取数x至ACC</td></tr><tr><td>1</td><td align="left">000100(存数)</td><td>0000001001(β)</td><td>[ACC] -&gt; β</td><td>乘a得ax ,存于ACC中</td></tr><tr><td>2</td><td align="left">000011(加)</td><td>0000001010(γ)</td><td>[ACC]+[γ] -&gt; ACC</td><td>加b得ax+b ,存于ACC中</td></tr><tr><td>3</td><td align="left">000100(乘)</td><td>0000001000(δ)</td><td>[ACC]×[δ] -&gt; ACC</td><td>乘x得（ax+b)x,存于ACC中</td></tr><tr><td>4</td><td align="left">000011</td><td>0000001011</td><td></td><td>加c得ax<sup>2</sup> + bx + c ,存于ACC</td></tr><tr><td>5</td><td align="left">000010</td><td>0000001100</td><td></td><td>将ax<sup>2</sup> + bx +c ,存于主存单元</td></tr><tr><td>6</td><td align="left">000011(打印)</td><td>0000001011(o)</td><td>[ o ] -&gt; 打印机</td><td>打印</td></tr><tr><td>7</td><td align="left">000110</td><td></td><td></td><td>停机</td></tr><tr><td>8</td><td align="left">x</td><td></td><td></td><td>原始数据x</td></tr><tr><td>9</td><td align="left">a</td><td></td><td></td><td>原始数据a</td></tr><tr><td>10</td><td align="left">b</td><td></td><td></td><td>原始数据b</td></tr><tr><td>11</td><td align="left">c</td><td></td><td></td><td>原始数据c</td></tr><tr><td>12</td><td align="left"></td><td></td><td></td><td>存放结果</td></tr></tbody></table><p>指令和数据都是保存在存储器中的</p><h3 id="2-计算机的解题过程"><a href="#2-计算机的解题过程" class="headerlink" title="2.计算机的解题过程"></a>2.计算机的解题过程</h3><h4 id="1-存储器的基本组成"><a href="#1-存储器的基本组成" class="headerlink" title="1. 存储器的基本组成"></a>1. 存储器的基本组成</h4><p><img src="http://toomson.com:81/images/image-20220504005332704.png"></p><p>   存储器：存储体，MAR，MDR</p><ul><li>存储体 -存储单元 -存储元件（0/1）</li><li>大楼 -房间 -床位（无人/有人）</li></ul><table><thead><tr><th>存储单元</th><th>存放一串二进制代码</th></tr></thead><tbody><tr><td>存储字</td><td>存储单元中二进制代码的组合</td></tr><tr><td>存储字长</td><td>存储单元中二进制代码的位数</td></tr><tr><td>按地址寻访</td><td>每个存储单元赋予一个地址号</td></tr></tbody></table><p>   MAR：存储器地址寄存器，反映存储单元（房间）的个数</p><p>   MDR：存储器数据寄存器，反映存储字长</p><p>   例如：MAR = 4 位 -&gt; 存储单元个数 16<br>   MDR = 8 位 -&gt; 存储字长 8</p><h4 id="2-运算器的基本组成及操作过程"><a href="#2-运算器的基本组成及操作过程" class="headerlink" title="2. 运算器的基本组成及操作过程"></a>2. 运算器的基本组成及操作过程</h4><p><img src="http://toomson.com:81/images/image-20220504005536012.png"></p><p>   运算器：X-&gt;ALU&lt;=&gt;ACC&lt;=&gt;MQ</p><table><thead><tr><th></th><th>ACC</th><th>MQ</th><th>X</th></tr></thead><tbody><tr><td>加法</td><td>被加数和</td><td></td><td>加数</td></tr><tr><td>减法</td><td>被减数差</td><td></td><td>减数</td></tr><tr><td>乘法</td><td>乘积高位</td><td>乘数乘积低位</td><td>被乘法</td></tr><tr><td>除法</td><td>被除数余数</td><td>商</td><td>除法</td></tr></tbody></table><p>ALU：算咯运算单元</p><p>① 加法操作过程</p><p><img src="http://toomson.com:81/images/image-20220504005601141.png"></p><table><thead><tr><th>指令</th><th>加</th><th>M</th></tr></thead><tbody><tr><td>初态ACC被加数</td><td></td><td>[M] -&gt; X 把M中的值给X</td></tr><tr><td>得到</td><td>[ACC]+[X] -&gt; ACC 运算结果给ACC</td><td></td></tr></tbody></table><p>② 减法操作过程</p><p><img src="http://toomson.com:81/images/image-20220504005614149.png"></p><table><thead><tr><th>指令</th><th>减</th><th>M</th></tr></thead><tbody><tr><td>初态ACC被减数</td><td></td><td>[M] -&gt; X 把M中的值给X</td></tr><tr><td>得到</td><td>[ACC]-[X] -&gt; ACC 运算结果给ACC</td><td></td></tr></tbody></table><p>③ 乘法操作过程</p><p><img src="http://toomson.com:81/images/image-20220504005625456.png"></p><table><thead><tr><th>指令</th><th>乘</th><th>M</th></tr></thead><tbody><tr><td>初态ACC被乘数</td><td></td><td>[M] -&gt; MQ</td></tr><tr><td>[ACC] -&gt; X把ACC的内容送到X</td><td>0 -&gt; ACC把ACC清零</td><td></td></tr><tr><td>得到</td><td>[X]*[MQ] -&gt; ACC/MQ</td><td></td></tr></tbody></table><p>④ 除法操作过程</p><p><img src="http://toomson.com:81/images/image-20220504005636127.png"></p><table><thead><tr><th>指令</th><th>除</th><th>M</th></tr></thead><tbody><tr><td>初态ACC被除数</td><td></td><td>[M] -&gt; X</td></tr><tr><td>得到</td><td>[ACC]/[X] -&gt; MQ</td><td></td></tr></tbody></table><p>余数在ACC中</p><h4 id="3-控制器的基本组成"><a href="#3-控制器的基本组成" class="headerlink" title="3.控制器的基本组成"></a>3.控制器的基本组成</h4><p><img src="http://toomson.com:81/images/image-20220504005649872.png"></p><ul><li><p>控制器：CU，IR，PC</p></li><li><p>CU：控制单元</p><p>PC: 存放当前欲执行指令的地址， 具有计数功能（PC）+ 1 -&gt; PC</p><p>IR: 存放当前欲执行的指令</p></li></ul><p>完成一条指令：取指令PC -&gt; 分析指令IR -&gt; 执行指令CU</p><h3 id="运算器、控制器、存储器构成了什么主机"><a href="#运算器、控制器、存储器构成了什么主机" class="headerlink" title="运算器、控制器、存储器构成了什么主机"></a>运算器、控制器、存储器构成了什么主机</h3><ul><li><p>一条指令在主机上的完成过程</p></li><li><p>程序在主机上是如何执行的</p></li></ul><h4 id="4-主机完成一条指令的过程"><a href="#4-主机完成一条指令的过程" class="headerlink" title="4.主机完成一条指令的过程"></a>4.主机完成一条指令的过程</h4><h5 id="以取数指令为例"><a href="#以取数指令为例" class="headerlink" title="以取数指令为例"></a>以取数指令为例</h5><p><img src="http://toomson.com:81/images/image-20220504005710023.png"></p><ol><li>PC把需要的指令的地址送给MAR（控制器上的PC中存放着要执行的指令的地址，指令保存在存储体当中）</li><li>MAR把地址送给存储体（在控制器的控制下，存储体把指定存储单元当中保存的取数指令取出来，送入MDR中）</li><li>存储体把指定存储单元当中保存的取数指令取出来，给MDR中（MDR中现在就有了指令）</li><li>MDR把取出来的指令送给IR（IR存放当前欲执行的指令和当前指令操作数的地址）</li><li>分析指令 IR送给CU</li><li>从IR的地址码部分取出操作数地址送给MAR（CU控制IR把操作数地址送给MAR）</li><li>MAR把地址给存储体（在控制器的控制下，存储体把指定存储单元当中保存的取数指令要去的数取出来，）</li><li>存储体把找到的数据给MDR</li><li>MDR送给运算器中的ACC</li></ol><h5 id="以存数指令为例"><a href="#以存数指令为例" class="headerlink" title="以存数指令为例"></a>以存数指令为例</h5><p><img src="http://toomson.com:81/images/image-20220504005727581.png"></p><ol><li>PC把需要的指令的地址送给MAR（控制器上的PC中存放着要执行的指令的地址，指令保存在存储体当中）</li><li>MAR把地址送给存储体（在控制器的控制下，存储体把指定存储单元当中保存的存数指令取出来，送入MDR中）</li><li>存储体把指定存储单元当中保存的存数指令取出来，给MDR中（MDR中现在就有了指令）</li><li>MDR把取出来的指令送给IR（IR存放当前欲执行的指令和当前指令操作数的地址）</li><li>分析指令 IR送给CU</li><li>从IR的地址码部分取出操作数地址送给MAR（CU控制IR把操作数地址送给MAR）</li><li>MAR把地址给存储体（在控制器CU的控制下，MAR把地址给存储体，告诉存储体现在有一个数据要存进来，对应的地址是多少）</li><li>运算器中ACC中的内容取出来送给MDR（CU控制）</li><li>MDR把得到的数据保存到存储体（在CU控制的控制之下把MDR中的数据保存的存储体对应的地址中）</li></ol><h4 id="ax2-bx-c-程序的运行过程"><a href="#ax2-bx-c-程序的运行过程" class="headerlink" title="ax2 + bx + c 程序的运行过程"></a>ax<sup>2</sup> + bx + c 程序的运行过程</h4><ul><li><p>将程序通过输入设备送至计算机</p></li><li><p>程序首地址 -&gt; PC</p></li><li><p>启动程序运行</p></li><li><p>取指令 PC -&gt; MAR -&gt; M(存储体) -&gt; MDR -&gt; IR ,(PC)+1 -&gt; PC</p></li><li><p>分析指令 OP(IR)(指令的操作码部分) -&gt; CU</p></li><li><p>执行指令 Ad(IR)(指令的操作数部分) -&gt; MAR -&gt; M -&gt; MDR -&gt; ACC</p><p>…</p></li><li><p>打印结果</p></li><li><p>停机</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机系统概论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机系统简介</title>
+      <link href="/posts/30ce.html"/>
+      <url>/posts/30ce.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机系统简介"><a href="#计算机系统简介" class="headerlink" title="计算机系统简介"></a>计算机系统简介</h1><h2 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h2><p>把感应器嵌入和装备到电网、铁路、桥梁、隧道、公路、建筑、供水系统、大坝、油气管道等各种物体中，并且被普遍连接，形成所谓“物联网”</p><h2 id="一-计算机系统"><a href="#一-计算机系统" class="headerlink" title="一.计算机系统"></a>一.计算机系统</h2><p>硬件：计算机的实体，如主机，外设等</p><p>软件：由具有各类特殊功能的信息（程序）组成</p><h3 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h3><p>系统软件：用来管理整个计算机系统</p><ol><li>语言处理程序</li><li>操作系统</li><li>服务性程序</li><li>数据库管理系统</li><li>网络软件</li></ol><p>应用软件：按任务需要编制成的各种程序</p><h2 id="二-计算机系统的层次结构"><a href="#二-计算机系统的层次结构" class="headerlink" title="二.计算机系统的层次结构"></a>二.计算机系统的层次结构</h2><h3 id="系统复杂性管理的方法-1"><a href="#系统复杂性管理的方法-1" class="headerlink" title="系统复杂性管理的方法-1"></a>系统复杂性管理的方法-1</h3><ul><li><p>抽象<br>抽象-对于一个过程或者一件制品的某些细节有目的的隐藏，以便把其他方面、细节或者结构表达得更加清楚—-百度百科<br>抽象-指高级的模型，和低级的实体相对—–维基百科<br>抽象-隐藏系统中不重要的细节。—–David Harris</p></li><li><p>从物理构成的角度把计算机系统抽象成九层 依据是每一层计算机典型的构建模块</p><table><thead><tr><th>Application Software</th><th>programs</th></tr></thead><tbody><tr><td>Operating Systems</td><td>adders memories</td></tr><tr><td>Architecture</td><td>device drivers</td></tr><tr><td>Microarchitecture</td><td>instructions registers</td></tr><tr><td>Logic</td><td>datapaths controllers</td></tr><tr><td>Digital Circuits</td><td>and gate not gate</td></tr><tr><td>Analog Circuits</td><td>amplifiers filters</td></tr><tr><td>Devices</td><td>transistors diodes</td></tr><tr><td>Physics</td><td>electros</td></tr></tbody></table></li><li><p>从程序员的角度，把计算机系统抽象成五层</p><table><thead><tr><th>高级语言</th><th>虚拟机器M4（软件）</th><th>用编译程序翻译成汇编语言程序</th></tr></thead><tbody><tr><td>汇编语言</td><td>虚拟机器M3（软件）</td><td>用汇编程序翻译成机器语言程序</td></tr><tr><td>操作系统</td><td>虚拟机器M2（软件）</td><td>用机器语言解释操作系统</td></tr><tr><td>机器语言</td><td>实际机器M1（硬件）</td><td>用微指令解释机器指令</td></tr><tr><td>微指令系统</td><td>微程序机器M0（硬件）</td><td>由硬件直接执行微指令</td></tr></tbody></table></li></ul><p>计算机系统（体系）结构：（例如：定义有无乘法指令）</p><ul><li><p>程序员（机器语言程序员）所见到的计算机系统的属性（指令集及其能够对哪些类型的数据进行操作，寄存器文件的组织，内存的编址单位） 概念性的结构与功能特性（指令系统、数据类型、寻址技术、I/O机理）</p></li><li><p>定义了计算机系统软硬件的交界面，定义了哪些功能由软件来实现，哪些功能由硬件来实现，提供了上层软件进行编写的时候和硬件进行交互的接口</p></li></ul><p>计算机组成：（例如：如何实现乘法指令）</p><ul><li>实现计算机体系结构所体现的属性（具体指令的实现）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+            <tag> 计算机系统概论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux解压缩</title>
+      <link href="/posts/a9a3.html"/>
+      <url>/posts/a9a3.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux解压缩"><a href="#Linux解压缩" class="headerlink" title="Linux解压缩"></a>Linux解压缩</h1><h2 id="gzip-x2F-gunzip-指令"><a href="#gzip-x2F-gunzip-指令" class="headerlink" title="gzip/gunzip 指令"></a>gzip/gunzip 指令</h2><p>gzip 用于压缩文件， gunzip 用于解压的</p><p>gzip 文件 （功能描述：压缩文件，只能将文件压缩为*.gz 文件）</p><p>gunzip 文件.gz （功能描述：解压缩文件命令）</p><p>案例 1: gzip 压缩， 将 /home 下的 hello.txt 文件进行压缩</p><p>gzip  /home/hello.txt</p><p>案例 2: gunzip 压缩， 将 /home 下的 hello.txt.gz 文件进行解压缩</p><p>gunzip /home/hello.txt.gz</p><h2 id="zip-x2F-unzip-指令"><a href="#zip-x2F-unzip-指令" class="headerlink" title="zip/unzip 指令"></a>zip/unzip 指令</h2><p>zip 用于压缩文件， unzip 用于解压的，这个在项目打包发布中很有用的</p><p>zip      [选项] XXX.zip  将要压缩的内容（功能描述：压缩文件和目录的命令）</p><p>unzip [选项] XXX.zip   （功能描述：解压缩文件）</p><p>zip 常用选项</p><p>-r：递归压缩，即压缩目录</p><p>unzip 的常用选项</p><p>-d&lt;目录&gt; ：指定解压后文件的存放目录</p><p>应用实例</p><p>案例 1:   将 /home 下的 所有文件/文件夹进行压缩成 myhome.zip</p><p>zip -r myhome.zip /home/  [将 home 目录及其包含的文件和子文件夹都压缩] 案例 2: 将 myhome.zip 解压到 /opt/tmp 目录下</p><p>mkdir /opt/tmp</p><p>unzip -d /opt/tmp /home/myhome.zip</p><h2 id="tar-指令"><a href="#tar-指令" class="headerlink" title="tar 指令"></a>tar 指令</h2><p>tar 指令 是打包指令，最后打包后的文件是 .tar.gz 的文件。</p><p>tar [选项]  XXX.tar.gz 打包的内容  (功能描述：打包目录，压缩后的文件格式.tar.gz)</p><table><thead><tr><th>选项</th><th>功能</th></tr></thead><tbody><tr><td>-e</td><td>产生.tar打包文件</td></tr><tr><td>-v</td><td>显示详细信息</td></tr><tr><td>-f</td><td>指定压缩后的文件名</td></tr><tr><td>-z</td><td>打包同时压缩</td></tr><tr><td>-x</td><td>解包.tar文件</td></tr></tbody></table><p>案例 1:   压缩多个文件，将 /home/pig.txt 和 /home/cat.txt 压缩成                     pc.tar.gz tar -zcvf pc.tar.gz /home/pig.txt /home/cat.txt</p><p>案例 2:   将/home 的文件夹 压缩成 myhome.tar.gz tar -zcvf myhome.tar.gz /home/</p><p>案例 3:    将 pc.tar.gz  解压到当前目录</p><p>tar -zxvf pc.tar.gz</p><p>案例4: 将myhome.tar.gz 解压到 /opt/tmp2 目录下 (1)  mkdir /opt/tmp2 (2) tar -zxvf /home/myhome.tar.gz -C   /opt/tmp2</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux显示文本文件的内容</title>
+      <link href="/posts/c6e.html"/>
+      <url>/posts/c6e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux显示文本文件的内容"><a href="#Linux显示文本文件的内容" class="headerlink" title="Linux显示文本文件的内容"></a>Linux显示文本文件的内容</h1><h2 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h2><p>cat 文件名</p><h2 id="more"><a href="#more" class="headerlink" title="more"></a>more</h2><p>more 文件名</p><p>按空格键显示下一页，按b键显上一页，按q键退出。</p><h2 id="tail"><a href="#tail" class="headerlink" title="tail"></a>tail</h2><p>tail  文件  （功能描述：查看文件尾 10 行内容）</p><p>tail  -n 5 文件 （功能描述：查看文件尾 5 行内容，5 可以是任意行数）</p><p>tail  -f  文件  （功能描述：实时追踪该文档的所有更新）</p><h2 id="head"><a href="#head" class="headerlink" title="head"></a>head</h2><p>head  文件 (功能描述：查看文件头 10 行内容)</p><p>head -n 5 文件   (功能描述：查看文件头 5 行内容，5 可以是任意行数)</p><h2 id="less"><a href="#less" class="headerlink" title="less"></a>less</h2><p>less 文件名</p><table><thead><tr><th>操作</th><th>功能说明</th></tr></thead><tbody><tr><td>空格</td><td>向下翻动一页</td></tr><tr><td>pagedown</td><td>向下翻动一页</td></tr><tr><td>pageup</td><td>向上翻动一页</td></tr><tr><td>/或者？字符</td><td>向下搜索字串，n向下找，N向上找</td></tr><tr><td>q</td><td>离开less这个程序</td></tr></tbody></table><h2 id="统计文本文件的行数、单词数和字节数"><a href="#统计文本文件的行数、单词数和字节数" class="headerlink" title="统计文本文件的行数、单词数和字节数"></a>统计文本文件的行数、单词数和字节数</h2><p>wc 文件名</p><p>文件行数 文件字数 文件大小</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux时间操作</title>
+      <link href="/posts/ac3d.html"/>
+      <url>/posts/ac3d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux时间操作"><a href="#Linux时间操作" class="headerlink" title="Linux时间操作"></a>Linux时间操作</h1><p>1）查看时间。</p><p>date     （功能描述：显示当前时间）</p><p>date +%Y （功能描述：显示当前年份）</p><p>date +%m（功能描述：显示当前月份）</p><p>date +%d （功能描述：显示当前是哪一天）</p><p>date “+%Y-%m-%d %H:%M:%S”（功能描述：显示年月日时分秒）</p><p>2）设置时区为中国上海时间（注意不是北京时间）。</p><p>cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</p><p>3）设置时间。</p><p>date -s “yyyy-mm-dd hh:mi:ss”</p><p>date -s “2020-01-02 12:35:28”<br>4) cal 指令</p><p>查看日历指令 cal</p><p>cal [选项]   （功能描述：不加选项，显示本月日历）</p><p>案例 1: 显示当前日历 cal</p><p>案例 2: 显示 2020 年日历 : cal 2020</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux软链接ln指令</title>
+      <link href="/posts/f7fc.html"/>
+      <url>/posts/f7fc.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux软链接-ln-指令"><a href="#Linux软链接-ln-指令" class="headerlink" title="Linux软链接 ln 指令"></a>Linux软链接 ln 指令</h1><p>软链接也称为符号链接，类似于 windows 里的快捷方式，主要存放了链接其他文件的路径<br>ln -s [原文件或目录] [软链接名] （功能描述：给原文件创建一个软链接）</p><p>案例 1: 在/home 目录下创建一个软连接 myroot，连接到 /root 目录</p><p>ln -s /root  /home/myroot</p><p>案例 2: 删除软连接 myroot </p><p>rm    /home/myroot</p><p>当我们使用 pwd 指令查看目录时，仍然看到的是软链接所在目录。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux重定向</title>
+      <link href="/posts/a5a.html"/>
+      <url>/posts/a5a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="重定向-gt-指令和-gt-gt-指令"><a href="#重定向-gt-指令和-gt-gt-指令" class="headerlink" title="重定向 > 指令和 >> 指令"></a>重定向 &gt; 指令和 &gt;&gt; 指令</h1><p>&gt; 输出重定向和 &gt;&gt; 追加</p><ol><li><p>ls -l &gt;文件    （功能描述：列表的内容写入文件 a.txt 中（覆盖写））</p></li><li><p>ls -al &gt;&gt;文件 （功能描述：列表的内容追加到文件 aa.txt 的末尾）</p></li><li><p>cat 文件 1 &gt; 文件 2  （功能描述：将文件 1 的内容覆盖到文件 2）</p></li><li><p>echo “内容”&gt;&gt; 文件 (追加)</p></li></ol><p>1: 将 /home 目录下的文件列表 写入到 /home/info.txt 中, 覆盖写入</p><p>ls -l /home &gt; /home/info.txt  [如果 info.txt 没有，则会创建] 案例 </p><p>2: 将当前日历信息 追加到   /home/mycal 文件中</p><p>指令为： cal &gt;&gt; /home/mycal</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux搜索文件和文件中的内容</title>
+      <link href="/posts/7f99.html"/>
+      <url>/posts/7f99.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux搜索文件和文件中的内容"><a href="#Linux搜索文件和文件中的内容" class="headerlink" title="Linux搜索文件和文件中的内容"></a>Linux搜索文件和文件中的内容</h1><h2 id="find"><a href="#find" class="headerlink" title="find"></a>find</h2><p>find 目录名 -name 文件名 -print</p><p>从/tmp目录开始搜索，把全部的*.c文件显示出来。</p><p>find /tmp -name *.c -print</p><table><thead><tr><th>选项</th><th>功能</th></tr></thead><tbody><tr><td>-name</td><td>按照指定的文件名查找模式查找文件</td></tr><tr><td>-user</td><td>查找属于指定用户名的所有文件</td></tr><tr><td>-size</td><td>按照指定的囚犯们大小查找文件</td></tr></tbody></table><p>案例 1: 按文件名：根据名称查找/home 目录下的 hello.txt 文件</p><p>find /home -name hello.txt</p><p>案例 2：按拥有者：查找/opt 目录下，用户名称为 nobody 的文件</p><p>find /opt -user nobody</p><p>案例 3：查找整个 linux 系统下大于 200M 的文件（+n  大于 -n 小于  n 等于, 单位有 k,M,G）<br>find / -size +200M</p><h2 id="locate-指令"><a href="#locate-指令" class="headerlink" title="locate 指令"></a>locate 指令</h2><p>yum -y install mlocate</p><p>locate 指令可以快速定位文件路径。locate 指令利用事先建立的系统中所有文件名称及路径的 locate 数据库实现快速定位给定的文件。Locate 指令无需遍历整个文件系统，查询速度较快。为了保证查询结果的准确度，管理员必须定期更新 locate 时刻</p><p>updatedb</p><p>locate 搜索文件</p><p>由于 locate 指令基于数据库进行查询，所以第一次运行前，必须使用 updatedb 指令创建 locate 数据库。</p><p>案例 1: 请使用 locate 指令快速定位 hello.txt 文件所在目录</p><h2 id="which-指令"><a href="#which-指令" class="headerlink" title="which 指令"></a>which 指令</h2><p>可以查看某个指令在哪个目录下，比如 ls 指令在哪个目录</p><p>which ls</p><h2 id="grep-指令和-管道符号"><a href="#grep-指令和-管道符号" class="headerlink" title="grep 指令和 管道符号 |"></a>grep 指令和 管道符号 |</h2><p>grep 过滤查找 ， 管道符，“|”，表示将前一个命令的处理结果输出传递给后面的命令处理。</p><p>grep [选项] 查找内容 源文件</p><p>-n 显示匹配行及行号</p><p>-i 忽略字母大小写</p><p>案例 1: 请在 hello.txt 文件中，查找    “yes”  所在行，并且显示行号</p><p>写法 1: cat /home/hello.txt  | grep  “yes”</p><p>写法 2: grep -n “yes” /home/hello.txt </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux运行级别</title>
+      <link href="/posts/8ad0.html"/>
+      <url>/posts/8ad0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux运行级别"><a href="#Linux运行级别" class="headerlink" title="Linux运行级别"></a>Linux运行级别</h1><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>运行级别说明：</p><p>0  ：关机</p><p>1  ：单用户【找回丢失密码】</p><p>2：多用户状态没有网络服务</p><p>3：多用户状态有网络服务</p><p>4：系统未使用保留给用户</p><p>5：图形界面</p><p>6：系统重启</p><p>常用运行级别是 3 和 5 ，也可以指定默认运行级别</p><p>命令：init [0123456]  通过 init 来切换不同的运行级别</p><h3 id="CentOS7-后运行级别说明"><a href="#CentOS7-后运行级别说明" class="headerlink" title="CentOS7 后运行级别说明"></a>CentOS7 后运行级别说明</h3><p>在 centos7 以前， /etc/inittab 文件中 .</p><p>进行了简化 ，如下:</p><pre class="line-numbers language-none"><code class="language-none">multi-user.target: analogous to runlevel 3 graphical.target: analogous to runlevel 5 # To view current default target, run: systemctl get-default# To set a default target, run:systemctl set-default TARGET.target<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux部署SSL证书</title>
+      <link href="/posts/67c7.html"/>
+      <url>/posts/67c7.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="部署SSL证书"><a href="#部署SSL证书" class="headerlink" title="部署SSL证书"></a>部署SSL证书</h1><p>https协议很慢个人网站就不用做了</p><p>1.上传证书</p><p>2.解压缩文件</p><pre class="line-numbers language-none"><code class="language-none">unzip ~.zip<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>解压完成后，会在我们的文件夹下生成 <code>Nginx</code> <code>Apache</code> <code>IIS</code> <code>Tomcat</code></p><p>例如：nginx</p><p>3.Nginx文件夹下的文件复制到新建的文件夹下</p><pre class="line-numbers language-none"><code class="language-none">mkdir /etc/nginx/ssl/cd 解压文件目录路径/Nginxcp ~.crt /etc/nginx/ssl/cp ~.key /etc/nginx/ssl/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>4.打开nginx.conf 文件夹 修改配置文件</p><pre class="line-numbers language-none"><code class="language-none">vim /etc/nginx/nginx.conf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-nginx" data-language="nginx"><code class="language-nginx"><span class="token directive"><span class="token keyword">59</span> <span class="token comment"># Settings for a TLS enabled server.</span><span class="token number">60</span> <span class="token number">61</span>     server</span> <span class="token punctuation">{</span><span class="token directive"><span class="token keyword">62</span>         listen <span class="token number">443</span> ssl</span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">63</span>         ssl <span class="token boolean">on</span></span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">64</span>         server_name  toomson.com</span><span class="token punctuation">;</span>    <span class="token comment">#域名</span><span class="token directive"><span class="token keyword">65</span>         root         /网站主目录</span><span class="token punctuation">;</span>        <span class="token comment">#网站主目录</span><span class="token directive"><span class="token keyword">66</span> <span class="token number">67</span>         ssl_certificate /etc/nginx/ssl/*.crt</span><span class="token punctuation">;</span>    <span class="token comment">#crt文件路径</span><span class="token directive"><span class="token keyword">68</span>         ssl_certificate_key /etc/nginx/ssl/*.cn.key</span><span class="token punctuation">;</span>        <span class="token comment">#key文件路径</span><span class="token directive"><span class="token keyword">69</span>         ssl_session_cache shared:SSL:1m</span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">70</span>         ssl_session_timeout  <span class="token number">10m</span></span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">71</span>         ssl_ciphers HIGH:!aNULL:!MD5</span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">72</span>         ssl_prefer_server_ciphers <span class="token boolean">on</span></span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">73</span> <span class="token number">74</span>         <span class="token comment"># Load configuration files for the default server block.</span><span class="token number">75</span>         include /etc/nginx/default.d/*.conf</span><span class="token punctuation">;</span><span class="token directive"><span class="token keyword">76</span>                   <span class="token comment">#默认请求</span><span class="token number">77</span>        location /</span> <span class="token punctuation">{</span><span class="token directive"><span class="token keyword">78</span>                 root /网站主目录</span><span class="token punctuation">;</span>                   <span class="token comment">#定义首页索引文件名称</span><span class="token directive"><span class="token keyword">79</span>                 index index.html</span><span class="token punctuation">;</span>80         <span class="token punctuation">}</span>81<span class="token punctuation">}</span>82<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>5.查看是否有报错，无报错重启服务器</p><pre class="line-numbers language-none"><code class="language-none">nginx -tsystemctl restart nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云服务器部署网站</title>
+      <link href="/posts/98c6.html"/>
+      <url>/posts/98c6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="云服务器网站配置"><a href="#云服务器网站配置" class="headerlink" title="云服务器网站配置"></a>云服务器网站配置</h1><p>  1.创建网站目录并且设置权限</p><pre class="line-numbers language-none"><code class="language-none">su rootmkdir /home/hexochown AsherJw:AsherJw -R /home/hexo<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>   2.安装Nginx</p><pre class="line-numbers language-none"><code class="language-none">yum install -y nginxsystemctl start nginx.service    #启动服务<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>安装不了看另一篇blog</p><p>   3.修改Nginx配置文件</p><p>nginx</p><pre class="line-numbers language-nginx" data-language="nginx"><code class="language-nginx"><span class="token directive"><span class="token keyword">vim</span> /etc/nginx/nginx.conf  <span class="token number">38</span>     server</span> <span class="token punctuation">{</span> <span class="token directive"><span class="token keyword">39</span>         listen       <span class="token number">80</span> default_server</span><span class="token punctuation">;</span> <span class="token directive"><span class="token keyword">40</span>         listen       [::]:80 default_server</span><span class="token punctuation">;</span> <span class="token directive"><span class="token keyword">41</span>         server_name  toomson.com</span><span class="token punctuation">;</span>        <span class="token comment">#域名</span> <span class="token directive"><span class="token keyword">42</span>         root         /home/hexo</span><span class="token punctuation">;</span>        <span class="token comment">#网站目录</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>   4.重启服务器</p><pre class="line-numbers language-none"><code class="language-none">systemctl restart nginx.service<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   5.建立git仓库</p><pre class="line-numbers language-none"><code class="language-none">su rootcd /home/AsherJwgit init --bare blog.gitchown AsherJw:AsherJw -R blog.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>   6.同步网站根目录</p><pre class="line-numbers language-none"><code class="language-none">vim blog.git/hooks/post-receive#!/bin/shgit --work-tree=/home/hexo --git-dir=/home/AsherJw/blog.git checkout -f<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>   7.修改权限</p><pre class="line-numbers language-none"><code class="language-none">chmod +x /home/AsherJw/blog.git/hooks/post-receive<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   8.在windows10本地hexo目录修改_config.yml文件</p><pre class="line-numbers language-none"><code class="language-none">deploy:  type: git  repository: AsherJw@公网IP:/home/AsherJw/blog.git    #用户名@服务器Ip:git仓库位置  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>   9.在本机gitbash部署</p><pre class="line-numbers language-none"><code class="language-none">hexo cleanhexo g -d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nginx_CentOS</title>
+      <link href="/posts/edf8.html"/>
+      <url>/posts/edf8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="CentOS7安装Nginx"><a href="#CentOS7安装Nginx" class="headerlink" title="CentOS7安装Nginx"></a>CentOS7安装Nginx</h1><pre class="line-numbers language-none"><code class="language-none">yum install -y nginxsystemctl start nginx.service    #启动服务<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="方法行不通再用下面方法"><a href="#方法行不通再用下面方法" class="headerlink" title="方法行不通再用下面方法"></a>方法行不通再用下面方法</h2><h2 id="一-gcc-安装"><a href="#一-gcc-安装" class="headerlink" title="一. gcc 安装"></a>一. gcc 安装</h2><p>安装 nginx 需要先将官网下载的源码进行编译，编译依赖 gcc 环境，如果没有 gcc 环境，则需要安装：</p><pre class="line-numbers language-none"><code class="language-none">yum install gcc-c++<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="二-PCRE-pcre-devel-安装"><a href="#二-PCRE-pcre-devel-安装" class="headerlink" title="二. PCRE pcre-devel 安装"></a>二. PCRE pcre-devel 安装</h2><p>PCRE(Perl Compatible Regular Expressions) 是一个Perl库，包括 perl 兼容的正则表达式库。nginx 的 http 模块使用 pcre 来解析正则表达式，所以需要在 linux 上安装 pcre 库，pcre-devel 是使用 pcre 开发的一个二次开发库。nginx也需要此库。命令：</p><pre class="line-numbers language-none"><code class="language-none">yum install -y pcre pcre-devel<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="三-zlib-安装"><a href="#三-zlib-安装" class="headerlink" title="三. zlib 安装"></a>三. zlib 安装</h2><p>zlib 库提供了很多种压缩和解压缩的方式， nginx 使用 zlib 对 http 包的内容进行 gzip ，所以需要在 Centos 上安装 zlib 库。</p><pre class="line-numbers language-none"><code class="language-none">yum install -y zlib zlib-devel<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="四-OpenSSL-安装"><a href="#四-OpenSSL-安装" class="headerlink" title="四. OpenSSL 安装"></a>四. OpenSSL 安装</h2><p>OpenSSL 是一个强大的安全套接字层密码库，囊括主要的密码算法、常用的**和证书封装管理功能及 SSL 协议，并提供丰富的应用程序供测试或其它目的使用。<br>nginx 不仅支持 http 协议，还支持 https（即在ssl协议上传输http），所以需要在 Centos 安装 OpenSSL 库。</p><pre class="line-numbers language-none"><code class="language-none">yum install -y openssl openssl-devel<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="nginx下载"><a href="#nginx下载" class="headerlink" title="nginx下载"></a>nginx下载</h2><p>使用<code>wget</code>命令下载（推荐）。确保系统已经安装了wget，如果没有安装，执行 yum install wget 安装。</p><pre class="line-numbers language-none"><code class="language-none">wget -c https://nginx.org/download/nginx-1.12.0.tar.gz<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><p>依然是直接命令：</p><pre class="line-numbers language-none"><code class="language-none">tar -zxvf nginx-1.12.0.tar.gzcd nginx-1.12.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>其实在 nginx-1.12.0 版本中你就不需要去配置相关东西，默认就可以了。当然，如果你要自己配置目录也是可以的。<br>使用默认配置</p><pre class="line-numbers language-none"><code class="language-none">./configure<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="编译安装"><a href="#编译安装" class="headerlink" title="编译安装"></a>编译安装</h2><pre class="line-numbers language-none"><code class="language-none">makemake install<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>查找安装路径：</p><pre class="line-numbers language-none"><code class="language-none">whereis nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="启动、停止nginx"><a href="#启动、停止nginx" class="headerlink" title="启动、停止nginx"></a>启动、停止nginx</h2><pre class="line-numbers language-none"><code class="language-none">cd /usr/local/nginx/sbin/./nginx ./nginx -s stop./nginx -s quit./nginx -s reload<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="启动时报80端口被占用"><a href="#启动时报80端口被占用" class="headerlink" title="启动时报80端口被占用:"></a>启动时报80端口被占用:</h2><p>如果是云服务器 记得配置安全组</p><p>打开conf，找到nginx.conf 文件</p><p>打开文件，找到 80端口。下图中 server里面的 listen端口号我已经修噶为 81 </p><h2 id="重启-nginx"><a href="#重启-nginx" class="headerlink" title="重启 nginx"></a>重启 nginx</h2><p>1.先停止再启动（推荐）：<br>对 nginx 进行重启相当于先停止再启动，即先执行停止命令再执行启动命令。如下：</p><pre class="line-numbers language-none"><code class="language-none">./nginx -s quit./nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>2.重新加载配置文件：<br>当 ngin x的配置文件 nginx.conf 修改后，要想让配置生效需要重启 nginx，使用<code>-s reload</code>不用先停止 ngin x再启动 nginx 即可将配置信息在 nginx 中生效，如下：<br>./nginx -s reload</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git_Linux</title>
+      <link href="/posts/24a2.html"/>
+      <url>/posts/24a2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="云服务器配置Git"><a href="#云服务器配置Git" class="headerlink" title="云服务器配置Git"></a>云服务器配置Git</h1><p>   1.安装依赖库</p><pre class="line-numbers language-none"><code class="language-none">yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   2.安装编译工具</p><pre class="line-numbers language-none"><code class="language-none">yum install gcc perl-ExtUtils-MakeMaker package<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   3.查看git的版本y</p><pre class="line-numbers language-none"><code class="language-none">git version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   4.删除git</p><pre class="line-numbers language-none"><code class="language-none">yum remove git -y<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   5.下载解压最新版</p><pre class="line-numbers language-none"><code class="language-none">cd /usr/local/src    #下载的目录wget https://www.kernel.org/pub/software/scm/git/git-2.28.0.tar.gz    #下载最新版tar -zxvf git-2.28.0.tar.gz        #解压到当前文件夹<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>   6.编辑并安装</p><pre class="line-numbers language-none"><code class="language-none">cd git-2.28.0    #进入文件夹make prefix=/usr/local/git all    #编译源码make prefix=/usr/local/git install    #安装路径<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>   7.配置git的环境变量</p><pre class="line-numbers language-none"><code class="language-none">echo 'export PATH=$PATH:/usr/local/git/bin' &gt;&gt; /etc/bashrc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   8.刷新环境变量</p><pre class="line-numbers language-none"><code class="language-none">source /etc/bashrc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   9.查看版本号</p><pre class="line-numbers language-none"><code class="language-none">git --version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   10.创建git用户并且修改权限</p><pre class="line-numbers language-none"><code class="language-none">adduser AsherJwpasswd AsherJwchmod 740 /etc/sudoersvim /etc/sudoersroot    ALL=(ALL)       ALLfuchen     ALL=(ALL)       ALL<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>   11.本地windows10使用Gitbash创建密钥</p><pre class="line-numbers language-none"><code class="language-none">ssh-keygen -t rsa<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>key出错</li></ul><pre class="line-numbers language-none"><code class="language-none">Host key verification failed.<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>解决方法</li></ul><pre class="line-numbers language-none"><code class="language-none">ssh-keygen -R 你要访问的IP地址<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>   12.将本地创建的id_rsa.pub中内容复制</p><pre class="line-numbers language-none"><code class="language-none">su AsherJwmkdir ~/.sshvim ~/.ssh/authorized_keys<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>   13.本地测试</p><pre class="line-numbers language-none"><code class="language-none">ssh -v fuchen@服务器ip<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Git </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo</title>
+      <link href="/posts/9365.html"/>
+      <url>/posts/9365.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo-基本操作"><a href="#Hexo-基本操作" class="headerlink" title="Hexo 基本操作"></a>Hexo 基本操作</h1><ul><li>hexo s </li><li>hexo new post markdown_name</li><li>hexo init 项目名称      在想要存储项目的目录下执行，创建项目</li></ul><h2 id="上传日志到云服务器-or-GitHub"><a href="#上传日志到云服务器-or-GitHub" class="headerlink" title="上传日志到云服务器 or GitHub"></a>上传日志到云服务器 or GitHub</h2><ul><li>hexo clean</li><li>hexo g -d</li></ul><h1 id="安装配置Hexo"><a href="#安装配置Hexo" class="headerlink" title="安装配置Hexo"></a>安装配置Hexo</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><h3 id="nvm安装"><a href="#nvm安装" class="headerlink" title="nvm安装"></a>nvm安装</h3><ol><li><p><a href="https://github.com/coreybutler/nvm-windows/releases">https://github.com/coreybutler/nvm-windows/releases</a></p></li><li><p>下载后安装 安装完毕后，找到安装的路径，一些简单配置，打开setting.txt增加镜像源提高下载速度</p></li></ol><pre class="line-numbers language-none"><code class="language-none">node_mirror: https://npm.taobao.org/mirrors/node/npm_mirror: https://npm.taobao.org/mirrors/npm/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="3"><li>nvm version 检验是否安装成功</li></ol><h3 id="Node安装"><a href="#Node安装" class="headerlink" title="Node安装"></a>Node安装</h3><ol><li>nvm install 14</li><li>nvm list</li><li>nvm use 14 (进入安装目录，用管理员运行cmd)</li><li>node -v</li></ol><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>npm install hexo-cli -g</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux帮助指令</title>
+      <link href="/posts/ffee.html"/>
+      <url>/posts/ffee.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux帮助指令"><a href="#Linux帮助指令" class="headerlink" title="Linux帮助指令"></a>Linux帮助指令</h1><h3 id="man-获得帮助信息"><a href="#man-获得帮助信息" class="headerlink" title="man 获得帮助信息"></a>man 获得帮助信息</h3><p>基本语法：man [命令或配置文件]（功能描述：获得帮助信息） </p><h3 id="help-指令"><a href="#help-指令" class="headerlink" title="help 指令"></a>help 指令</h3><p>基本语法：help 命令 （功能描述：获得 shell 内置命令的帮助信息）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>找回Linux_root密码</title>
+      <link href="/posts/dc1a.html"/>
+      <url>/posts/dc1a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="找回Linux-root密码"><a href="#找回Linux-root密码" class="headerlink" title="找回Linux root密码"></a>找回Linux root密码</h1><ol><li><p>启动系统，进入开机界面，在界面中按“e”进入编辑界面。</p></li><li><p>进入编辑界面，使用键盘上的上下键把光标往下移动，找到以““Linux16”开头内容所在的行数”，在行的最后面输入：init=/bin/sh。</p></li><li><p>输入完成后，直接按快捷键：Ctrl+x 进入<strong>单用户模式</strong>。</p></li><li><p>在光标闪烁的位置中输入：mount -o remount,rw /（注意：各个单词间有空格），完成后按键盘的回车键（Enter）。</p></li><li><p>在新的一行最后面输入：passwd， 完成后按键盘的回车键（Enter）。输入密码，<strong>然后再次确认密码即</strong>可, 密码修改成功后，会显示passwd…..的样式，说明密码修改成功</p></li><li><p>在鼠标闪烁的位置中（最后一行中）输入：touch /.autorelabel（注意：touch与 /后面有一个空格），完成后按键盘的回车键（Enter）</p></li><li><p>继续在光标闪烁的位置中，输入：exec /sbin/init（注意：exec与 /后面有一个空格），完成后按键盘的回车键（Enter）,等待系统自动修改密码，完成后，系统会自动重启, <strong>新的密码生效</strong>了</p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CDN_GitHub</title>
+      <link href="/posts/80b4.html"/>
+      <url>/posts/80b4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="用git上传图片到GitHub-得到cdn连接加速"><a href="#用git上传图片到GitHub-得到cdn连接加速" class="headerlink" title="用git上传图片到GitHub 得到cdn连接加速"></a>用git上传图片到GitHub 得到cdn连接加速</h1><ul><li><p>git clone ssh链接需要电脑公钥  //关联GitHub库</p></li><li><p>上传图片文件</p></li><li><p>git status  //查看状态</p></li><li><p>git add</p></li><li><p>git commit -m ‘提交信息’</p></li><li><p>git push</p></li><li><p>在GitHub上发布版本</p></li><li><p><a href="https://cdn.jsdelivr.net/gh/user/%E5%BA%93%E5%90%8D@%E7%89%88%E6%9C%AC%E5%8F%B7/%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84">https://cdn.jsdelivr.net/gh/user/库名@版本号/文件路径</a></p></li><li><p>文件不能超过50M</p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux目录结构</title>
+      <link href="/posts/2046.html"/>
+      <url>/posts/2046.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux目录结构"><a href="#Linux目录结构" class="headerlink" title="Linux目录结构"></a>Linux目录结构</h1><p>在 Linux 世界里，一切皆文件</p><ol><li>/bin   [常用]   (/usr/bin 、 /usr/local/bin)</li></ol><p>是 Binary 的缩写, 这个目录存放着最经常使用的命令</p><ol start="2"><li>/sbin    (/usr/sbin 、 /usr/local/sbin)</li></ol><p>s 就是 Super User 的意思，这里存放的是系统管理员使用的系统管理程序。</p><ol start="3"><li>/home [常用]</li></ol><p>存放普通用户的主目录，在 Linux 中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名</p><ol start="4"><li>/root  [常用]</li></ol><p>该目录为系统管理员，也称作超级权限者的用户主目录</p><ol start="5"><li><p>/lib 系统开机所需要最基本的动态连接共享库，其作用类似于 Windows 里的 DLL 文件。几乎所有的应用程序都需要用到这些共享库</p></li><li><p>/lost+found 这个目录一般情况下是空的，当系统非法关机后，这里就存放了一些文件</p></li><li><p>/etc [常用]</p></li></ol><p>所有的系统管理所需要的配置文件和子目录, 比如安装 mysql 数据库 my.conf</p><ol start="8"><li>/usr  [常用]</li></ol><p>这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似与 windows 下的 program files 目录。</p><ol start="9"><li><p>/boot [常用] 存放的是启动 Linux 时使用的一些核心文件，包括一些连接文件以及镜像文件</p></li><li><p>/proc [不能动] 这个目录是一个虚拟的目录，它是系统内存的映射，访问这个目录来获取系统信息</p></li><li><p>/srv [不能动]  service 缩写，该目录存放一些服务启动之后需要提取的数据</p></li><li><p>/sys  [不能动]这是 linux2.6 内核的一个很大的变化。该目录下安装了 2.6 内核中新出现的一个文件系统 sysfs =》【别动】</p></li><li><p>/tmp 这个目录是用来存放一些临时文件的</p></li><li><p>/dev</p></li></ol><p>类似于 windows 的设备管理器，把所有的硬件用文件的形式存储</p><ol start="15"><li><p>/media [常用] linux 系统会自动识别一些设备，例如 U 盘、光驱等等，当识别后，linux 会把识别的设备挂载到这个目录下</p></li><li><p>/mnt [常用]</p></li></ol><p>系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将外部的存储挂载在/mnt/上，然后进入该目录就可以查看里的内容了。 d:/myshare</p><ol start="17"><li><p>/opt  这是给主机额外安装软件所存放的目录。如安装 ORACLE 数据库就可放到该目录下。默认为空</p></li><li><p>/usr/local   [常用]</p></li></ol><p>这是另一个给主机额外安装软件所安装的目录。一般是通过编译源码方式安装的程序</p><ol start="19"><li>/var [常用]</li></ol><p>这个目录中存放着在不断扩充着的东西，习惯将经常被修改的目录放在这个目录下。包括各种日志文件</p><ol start="20"><li>/selinux [security-enhanced linux]</li></ol><p>SELinux 是一种安全子系统,它能控制程序只能访问特定文件, 有三种工作模式，可以自行设置.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux RPM与YUM</title>
+      <link href="/posts/30b0.html"/>
+      <url>/posts/30b0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux-RPM与YUM"><a href="#Linux-RPM与YUM" class="headerlink" title="Linux RPM与YUM"></a>Linux RPM与YUM</h1><h2 id="rpm-包的管理"><a href="#rpm-包的管理" class="headerlink" title="rpm 包的管理"></a>rpm 包的管理</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>rpm 用于互联网下载包的打包及安装工具，它包含在某些 Linux 分发版中。它生成具有.RPM 扩展名的文件。RPM 是 RedHat Package Manager（RedHat 软件包管理工具）的缩写，类似 windows 的 setup.exe，这一文件格式名称虽然打上了 RedHat 的标志，但理念是通用的。</p><p>Linux 的分发版本都有采用（suse,redhat, centos 等等），可以算是公认的行业标准了。</p><h3 id="rpm-包的简单查询指令"><a href="#rpm-包的简单查询指令" class="headerlink" title="rpm 包的简单查询指令"></a>rpm 包的简单查询指令</h3><p>查询已安装的 rpm 列表 </p><p><code>  rpm –qa|grep xx</code></p><p>举例： 看看当前系统，是否安装了 firefox 指令: rpm -qa | grep firefox</p><h3 id="rpm-包名基本格式"><a href="#rpm-包名基本格式" class="headerlink" title="rpm 包名基本格式"></a>rpm 包名基本格式</h3><p>一个 rpm 包名：firefox-60.2.2-1.el7.centos.x86_64 名称:firefox</p><p>版本号：60.2.2-1</p><p>适用操作系统: el7.centos.x86_64</p><p>表示 centos7.x 的 64 位系统</p><p>如果是 i686、i386 表示 32 位系统，noarch 表示通用</p><h3 id="rpm-包的其它查询指令："><a href="#rpm-包的其它查询指令：" class="headerlink" title="rpm 包的其它查询指令："></a>rpm 包的其它查询指令：</h3><p>rpm -qa :查询所安装的所有 rpm 软件包</p><p>rpm -qa | more</p><p>rpm -qa | grep X [rpm -qa | grep firefox ]</p><p>rpm -q 软件包名 :查询软件包是否安装案例：rpm -q firefox</p><p>rpm -qi 软件包名 ：查询软件包信息案例: rpm -qi firefox</p><p>rpm -ql 软件包名 :   查询软件包中的文件比如： rpm -ql firefox</p><p>rpm -qf 文件全路径名 查询文件所属的软件包</p><p>rpm -qf /etc/passwd rpm -qf /root/install.log</p><h3 id="卸载rpm-包："><a href="#卸载rpm-包：" class="headerlink" title="卸载rpm 包："></a>卸载rpm 包：</h3><ul><li>基本语法</li></ul><p>rpm -e RPM 包的名称 //erase</p><ul><li>应用案例</li></ul><p>删除 firefox   软件包</p><p>rpm -e  firefox</p><ul><li>细节讨论</li></ul><ol><li>如果其它软件包依赖于您要卸载的软件包，卸载时则会产生错误信息。如： $ rpm -e foo</li></ol><p>removing these packages would break dependencies:foo is needed by bar-1.0-1</p><ol start="2"><li>如果我们就是要删除 foo 这个 rpm 包，可以增加参数 –nodeps ,就可以强制删除，但是一般不推荐这样做，因为依赖于该软件包的程序可能无法运行。如：$ rpm -e –nodeps foo</li></ol><h3 id="安装rpm-包"><a href="#安装rpm-包" class="headerlink" title="安装rpm 包"></a>安装rpm 包</h3><ul><li>基本语法</li></ul><p>rpm -ivh  RPM 包全路径名称</p><ul><li>参数说明</li></ul><p>i=install 安装</p><p>v=verbose 提示</p><p>h=hash  进度条</p><ul><li>应用实例</li></ul><p>演示卸载和安装 firefox 浏览器</p><p>rpm -e firefox </p><p>rpm -ivh firefox</p><h2 id="yum"><a href="#yum" class="headerlink" title="yum"></a>yum</h2><h3 id="介绍："><a href="#介绍：" class="headerlink" title="介绍："></a>介绍：</h3><p>Yum 是一个 Shell 前端软件包管理器。基于 RPM 包管理，能够从指定的服务器自动下载 RPM 包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软件包。</p><h3 id="yum-的基本指令"><a href="#yum-的基本指令" class="headerlink" title="yum 的基本指令"></a>yum 的基本指令</h3><p>查询 yum 服务器是否有需要安装的软件</p><p>yum list|grep xx 软件列表</p><h3 id="安装指定的yum-包"><a href="#安装指定的yum-包" class="headerlink" title="安装指定的yum 包"></a>安装指定的yum 包</h3><p>yum install xxx  下载安装</p><h3 id="yum-应用实例："><a href="#yum-应用实例：" class="headerlink" title="yum 应用实例："></a>yum 应用实例：</h3><p>案例：请使用 yum 的方式来安装 firefox </p><p>rpm -e firefox</p><p>yum list | grep firefox </p><p>yum install firefox</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mysql_Linux</title>
+      <link href="/posts/27e0.html"/>
+      <url>/posts/27e0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Mysql安装CentOS7"><a href="#Mysql安装CentOS7" class="headerlink" title="Mysql安装CentOS7"></a>Mysql安装CentOS7</h1><pre class="line-numbers language-none"><code class="language-none">1. mkdir /opt/mysql2. cd /opt/mysql3. wget http://dev.mysql.com/get/mysql-5.7.26-1.el7.x86_64rpm-bundle.tar4. tar -xvf mysql-5.7.26-1.el7.x86_64rpm-bundle.tar5. rpm -qa|grep mari  原本可能有的数据库 提前删干净6. rpm -e --nodeps mariadb-libs 删除mari相关的所有7. rpm -e --nodeps marisa8. rpm -ivh mysql-community-common-5.7.26-1.el7.x86_64rpm9. rpm -ivh mysql-community-libs-5.7.26-1.el7.x86_64rpm10. rpm -ivh mysql-community-client-5.7.26-1.el7.x86_64rpm11. rpm -ivh mysql-community-server-5.7.26-1.el7.x86_64rpm  如果失败 可能缺少依赖numactl  yum -y install numactl12. systemctl start mysqld.service systemctl status mysqld.service ps -ef|grep mysql13. grep "password" /var/log/mysqld.log14. mysql -u root -p15. set global validata_password_policy=0;  设置密码简单安全策略，可有可无MySQL修改密码策略报错：ERROR 1193 (HY000): Unknown system variable 'validate_password_policy' 最好先修改一下密码  ALTER USER 'root'@'localhost' IDENTIFIED BY '新的密码';  MySQL修改密码报错ERROR 1396 (HY000): Operation ALTER USER failed for ‘root‘@‘localhost‘  use mysql;  select user,host from user where user='root';  查看host 列的值是 ‘%’，则  ALTER USER 'root'@'%' IDENTIFIED BY '新的密码'; install plugin validate_password soname 'validate_password.so'; select plugin_name, plugin_status from information_schema.plugins where plugin_name like 'validate%'; SHOW VARIABLES LIKE 'validate_password%'; set global validate_password_policy=0； SHOW VARIABLES LIKE 'validate_password%';16. set password for 'root'@'localhost' = password('lijialin'); 修改密码17. flush privileges;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="Mysql找回root密码"><a href="#Mysql找回root密码" class="headerlink" title="Mysql找回root密码"></a>Mysql找回root密码</h1><pre class="line-numbers language-none"><code class="language-none">1. vi /etc/my.cnf2. skip-grant-tables3. service mysqld restart4. mysql -u root -p5. show databases;6. use mysql;7. show tables;8. desc user;9. update user set authentication_string=password("lijialin")  where user='root';  或者改成空密码''登录以后再修改10. flush privileges;11. exit12. vi /etc/my.cnf13. #skip-grant-tables14. service mysqld restart15. mysql -u root -p<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="连接Mysql"><a href="#连接Mysql" class="headerlink" title="连接Mysql"></a>连接Mysql</h1><pre class="line-numbers language-none"><code class="language-none">1.ping IP 查看是否开放公网 2.telnet IP port 查看端口是否开放上面不通畅登录进入服务器登录mysql root3.use mysql;4. select host,user from user;5. grant all privileges on *.* to 'root'@'%' identified by '密码';6. flush privileges;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vi</title>
+      <link href="/posts/8eff.html"/>
+      <url>/posts/8eff.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、创建-x2F-打开文件"><a href="#一、创建-x2F-打开文件" class="headerlink" title="一、创建/打开文件"></a>一、创建/打开文件</h2><p>vi 文件名</p><p>打开一个文件，如果文件不存在，就创建它。</p><p>示例：</p><p>vi book.c</p><h2 id="二、vi的三种模式"><a href="#二、vi的三种模式" class="headerlink" title="二、vi的三种模式"></a>二、vi的三种模式</h2><p>vi 有三种模式，命令行模式、插入模式和替换模式，在命令行模式下，任何键盘输入都是命令，在插入模式和替换模式下，键盘输入的才是字符。</p><p>插入模式和替换模式也合称为编辑模式。</p><h2 id="三、vi的常用命令"><a href="#三、vi的常用命令" class="headerlink" title="三、vi的常用命令"></a>三、vi的常用命令</h2><p>Esc    从编辑模式切换到命令行模式。</p><h3 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h3><p>i   在光标所在位置前面开始插入。</p><p>a   在光标所在的位置后面开始插入。</p><p>o  在光标所在位置行的下面插入空白行。</p><p>O  在光标所在位置行的上面插入空白行。</p><p>I   在光标所在位置行的行首开始插入。</p><p>A  在光标所在位置行的行末开始插入。</p><h3 id="方向"><a href="#方向" class="headerlink" title="方向"></a>方向</h3><p>k   类似方向键上。</p><p>j   类似方向键下。</p><p>h  类似方向键左。</p><p>l   类是方向键右。</p><h3 id="翻页"><a href="#翻页" class="headerlink" title="翻页"></a>翻页</h3><p>Ctrl+u  向上翻半页。</p><p>Ctrl+d  向下翻页。</p><h3 id="光标位置"><a href="#光标位置" class="headerlink" title="光标位置"></a>光标位置</h3><p>Ctrl+g    显示光标所在位置的行号和文件的总行数。</p><p>nG 光标跳到文件的第n行行首。</p><p>G  光标跳到文件最后一行。</p><p>:5回车  光标跳到第5行。</p><p>:n回车  光标跳到第n行。</p><p>0   光标跳到当前行的行首。</p><p>$   光标跳到当前行的行尾。</p><p>w   光标跳到下个单词的开头。</p><p>b   光标跳到上个单词的开头。</p><p>e  光标跳到本单词的尾部。</p><h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><p>x    每按一次，删除光标所在位置的一个字符。</p><p>nx  如”3x”表示删除光标所在位置开始的3个字符。</p><p>dw 删除光标所在位置到本单词结尾的字符。</p><p>D  删除本行光标所在位置后面全部的内容。</p><p>dd  删除光标所在位置的一行。</p><p>ndd 如”3dd”表示删除光标所在位置开始的3行。</p><h3 id="复制"><a href="#复制" class="headerlink" title="复制"></a>复制</h3><p>yy  将光标所在位置的一行复制到缓冲区。</p><p>nyy 将光标所在位置的n行复制到缓冲区。</p><p>p   将缓冲区里的内容粘贴到光标所在位置。</p><p>Ctl+insert  复制鼠标选中的文本，相当于Ctl+c。</p><p>Shift+insert 输出鼠标选中的文本，相当于Ctl+v。</p><p>以上两个命令在windows和UNIX中是通用的。</p><h3 id="替换"><a href="#替换" class="headerlink" title="替换"></a>替换</h3><p>r   替换光标所在位置的一个字符 replace。</p><p>R  从光标所在位置开始替换，直到按下”Esc”。</p><p>cw 从光标所在位置开始替换单词，直到按下”Esc”。</p><p>:g/aaaaaaaaa/s//bbbbbb/g回车  把文件中全部的aaaaaaaaa替换成bbbbbb。</p><p>u  撤销命令，可多次撤销。</p><p>J  把当前行的下一行接到当前行的尾部。</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><p>/abcd  在当前打开的文件中查找“abcd”文本内容。</p><p>n   查找下一个。</p><p>N   查找上一下。</p><p>.  重复执行上一次执行的vi命令。</p><p>~  对光标当前所在的位置的字符进行大小写转换。</p><h3 id="列操作"><a href="#列操作" class="headerlink" title="列操作"></a>列操作</h3><p>Ctrl+V  光标上或下  大写的I  输入内容  Esc</p><p>:w回车  存盘。</p><p>:w!回车  强制存盘。</p><p>:wq回车 存盘退出。</p><p>:x回车  存盘退出。</p><p>:q回车 不存盘退出。</p><p>:q!回车  不存盘强制退出。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux命令</title>
+      <link href="/posts/869e.html"/>
+      <url>/posts/869e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h1><h2 id="1、重启和关机"><a href="#1、重启和关机" class="headerlink" title="1、重启和关机"></a>1、重启和关机</h2><p>1）重启</p><p>init 6 或 reboot</p><p>2）关机</p><p>init 0 或 halt</p><h2 id="2、清屏"><a href="#2、清屏" class="headerlink" title="2、清屏"></a>2、清屏</h2><p>clear</p><h2 id="3、查看服务器的ip地址"><a href="#3、查看服务器的ip地址" class="headerlink" title="3、查看服务器的ip地址"></a>3、查看服务器的ip地址</h2><p>ip addr</p><h2 id="5、查看当前工作目录"><a href="#5、查看当前工作目录" class="headerlink" title="5、查看当前工作目录"></a>5、查看当前工作目录</h2><p>pwd</p><h2 id="6、改变当前工作目录"><a href="#6、改变当前工作目录" class="headerlink" title="6、改变当前工作目录"></a>6、改变当前工作目录</h2><p>cd 目录名</p><h2 id="7、列出目录和文件信息"><a href="#7、列出目录和文件信息" class="headerlink" title="7、列出目录和文件信息"></a>7、列出目录和文件信息</h2><p>ls -lt 目录或文件名</p><p>正则表达式</p><p>ls /tmp/exp*.dmp</p><h2 id="8、创建目录文件"><a href="#8、创建目录文件" class="headerlink" title="8、创建目录文件"></a>8、创建目录文件</h2><p>mkdir 目录名<br>touch 文件名</p><h2 id="9、删除目录和文件"><a href="#9、删除目录和文件" class="headerlink" title="9、删除目录和文件"></a>9、删除目录和文件</h2><p>rm -rf 目录或文件列表</p><p><code>rm -f .*.*.swp</code></p><h2 id="10、移动目录和文件"><a href="#10、移动目录和文件" class="headerlink" title="10、移动目录和文件"></a>10、移动目录和文件</h2><p>mv 旧目录或文件名 新目录或文件名</p><h2 id="11、复制目录和文件"><a href="#11、复制目录和文件" class="headerlink" title="11、复制目录和文件"></a>11、复制目录和文件</h2><p>cp -r 旧目录或文件名 新目录或文件名</p><h2 id="13、判断网络是否连通"><a href="#13、判断网络是否连通" class="headerlink" title="13、判断网络是否连通"></a>13、判断网络是否连通</h2><p>Windows系统：</p><p>ping -n 包的个数 ip地址或域名</p><p>Linux系统：</p><p>ping -c 包的个数 ip地址或域名</p><h1 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h1><h2 id="18、查询用户信息"><a href="#18、查询用户信息" class="headerlink" title="18、查询用户信息"></a>18、查询用户信息</h2><p>id 用户名<br>whoami/who am I</p><h2 id="19、用户和组相关文件"><a href="#19、用户和组相关文件" class="headerlink" title="19、用户和组相关文件"></a>19、用户和组相关文件</h2><p>/etc/passwd 文件<br>用户（user）的配置文件，记录用户的各种信息<br>每行的含义：用户名:口令:用户标识号:组标识号:注释性描述:主目录:登录 Shell</p><p>/etc/shadow 文件<br>口令的配置文件<br>每行的含义：登录名:加密口令:最后一次修改时间:最小时间间隔:最大时间间隔:警告时间:不活动时间:失效时间:标志</p><p>/etc/group 文件<br>组(group)的配置文件，记录 Linux 包含的组的信息<br>每行含义：组名:口令:组标识号:组内用户列表</p><h2 id="20、增加-x2F-删除用户组"><a href="#20、增加-x2F-删除用户组" class="headerlink" title="20、增加/删除用户组"></a>20、增加/删除用户组</h2><p>1）增加用户组</p><p>groupadd 组名</p><p>2）删除用户组</p><p>groupdel 组名</p><h2 id="21、增加-x2F-删除用户"><a href="#21、增加-x2F-删除用户" class="headerlink" title="21、增加/删除用户"></a>21、增加/删除用户</h2><p>1）增加用户</p><p>useradd -n 用户名 -g 组名 -d 用户的主目录</p><p>2）删除用户</p><p>userdel 用户名</p><h2 id="22、修改用户的组"><a href="#22、修改用户的组" class="headerlink" title="22、修改用户的组"></a>22、修改用户的组</h2><p>usermod–g 用户组 用户名</p><h2 id="23、修改用户的密码"><a href="#23、修改用户的密码" class="headerlink" title="23、修改用户的密码"></a>23、修改用户的密码</h2><p>passwd 用户名</p><h2 id="24、切换用户"><a href="#24、切换用户" class="headerlink" title="24、切换用户"></a>24、切换用户</h2><p>su - root </p><p>从root用户切换到其它普通用户不需要输入密码</p><h2 id="25、修改目录和文件的主人和组"><a href="#25、修改目录和文件的主人和组" class="headerlink" title="25、修改目录和文件的主人和组"></a>25、修改目录和文件的主人和组</h2><p>chown [-R] 用户名:组名 目录或文件名列表</p><p>-R 选项表示处理各及子目录。</p><p>1）把/oracle/home和/oracle/base及其子目录的主人改为oracle，组改为dba。</p><p>chown -R oracle:dba /oracle/home /oracle/base</p><h2 id="26、查看系统磁盘空间"><a href="#26、查看系统磁盘空间" class="headerlink" title="26、查看系统磁盘空间"></a>26、查看系统磁盘空间</h2><p>df [-h] [-T]</p><p>-h 以方便阅读的方式显示信息。</p><p>-T 列出文件系统类型。</p><h2 id="27、echo-指令"><a href="#27、echo-指令" class="headerlink" title="27、echo 指令"></a>27、echo 指令</h2><p>echo 输出内容到控制台</p><ul><li>基本语法</li></ul><p>echo  [选项]  [输出内容]</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JDK_Linux</title>
+      <link href="/posts/36f6.html"/>
+      <url>/posts/36f6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux安装-JDK"><a href="#Linux安装-JDK" class="headerlink" title="Linux安装 JDK"></a>Linux安装 JDK</h1><ol><li>mkdir /opt/jdk</li><li>上传到 /opt/jdk 下</li><li>cd /opt/jdk</li><li>解压 tar  -zxvf  jdk-8u261-linux-x64.tar.gz</li><li>mkdir /usr/local/java</li><li>mv /opt/jdk/jdk1.8.0_261  /usr/local/java</li><li>配置环境变量的配置文件 vim /etc/profile</li><li>export JAVA_HOME=/usr/local/java/jdk1.8.0_261</li><li>export PATH=$JAVA_HOME/bin:$PATH</li><li>source /etc/profile  [让新的环境变量生效]</li><li>java -version</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> JDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tomcat_Linux</title>
+      <link href="/posts/62e4.html"/>
+      <url>/posts/62e4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux安装tomcat"><a href="#Linux安装tomcat" class="headerlink" title="Linux安装tomcat"></a>Linux安装tomcat</h1><ol><li>上传安装文件，并解压缩到/opt/tomcat</li><li>进入解压目录/bin , 启动 tomcat   ./startup.sh</li><li>开放端口 8080</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MarkDown</title>
+      <link href="/posts/8518.html"/>
+      <url>/posts/8518.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2>  <pre class="line-numbers language-none"><code class="language-none">*斜体*_斜体_<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>  效果：</p><p>  <em>斜体</em></p>  <pre class="line-numbers language-none"><code class="language-none">**强调**__强调__<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>  效果：</p><p>  <strong>强调</strong></p><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2>  <pre class="line-numbers language-none"><code class="language-none">### 这是标题<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>  效果：</p><h3 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h3><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2>  <pre class="line-numbers language-none"><code class="language-none">+ 第一行- 第二行* 第三行<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>  效果：</p><ul><li>第一行</li></ul><ul><li>第二行</li></ul><ul><li>第三行</li></ul><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2>  <pre class="line-numbers language-none"><code class="language-none">&gt;    引用&gt;&gt;    &gt;    引用中的引用<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>  效果：</p><blockquote><p>   引用</p><blockquote><p>   引用中的引用</p></blockquote></blockquote><h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2>  <pre class="line-numbers language-none"><code class="language-none">``` 内容 ```<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>  <pre class="line-numbers language-none"><code class="language-none">&lt;?php    $my_array = array('a' =&gt; 'Dog', 'b' =&gt; 'Cat');    sort($my_array);    print_r($my_array);?&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2>  <pre class="line-numbers language-none"><code class="language-none">[Google](https://www.google.com )<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>  效果：</p><p>  <a href="https://www.google.com/">Google</a></p><p>  参考式链接</p>  <pre class="line-numbers language-none"><code class="language-none">[Google][GOOGL][GOOGL]: https://www.google.com "Google"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>  效果：</p><p>  <a href="https://www.google.com/" title="Google">Google</a></p><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2>  <pre class="line-numbers language-none"><code class="language-none">![myHome](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.07/images/0.jpg "myHome")<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>  效果：</p><p>  <img src="https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.07/images/0.jpg" alt="myHome" title="myHome"></p><h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2>  <pre class="line-numbers language-none"><code class="language-none">- - -<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>  效果：</p><p>  上文</p><hr><p>  下文</p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p><a href="http://tool.lu/tables">使用在线工具</a></p><ul><li><p>Markdown使用<code>|</code>和<code>-</code>来绘制表格，<code>:</code>可控制左对齐、右对齐及居中。</p><p>例如：</p><pre class="line-numbers language-none"><code class="language-none">| Title   | Description                        || :------ | :--------------------------------: || Version | 0.0.1                              || Editor  | [Melo618](mailto:Editor@Email.com) |<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>效果：</p><table><thead><tr><th align="left">Title</th><th align="center">Description</th></tr></thead><tbody><tr><td align="left">Version</td><td align="center">0.0.1</td></tr><tr><td align="left">Editor</td><td align="center"><a href="mailto:Editor@Email.com">Melo618</a></td></tr></tbody></table><ul><li>搜索markdown表格生成 填入表格 复制 粘贴</li></ul></li></ul><h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><ul><li>Markdown利用<code>\</code>字符来转义一些在语法中有特殊意义的符号。</li></ul><h2 id="Markdown上下标"><a href="#Markdown上下标" class="headerlink" title="Markdown上下标"></a>Markdown上下标</h2><ul><li>Markdown一个套兼容HTML的语法，所以使用HTML中下标下标的语法即可。</li></ul><pre class="line-numbers language-none"><code class="language-none">H&lt;sub&gt;2&lt;/sub&gt;Ox&lt;sup&gt;2&lt;/sup&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>效果：</p><p>H<sub>2</sub>O<br>x<sup>2</sup></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Technology </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
